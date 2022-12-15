@@ -56,7 +56,7 @@ header > div.menubar > nav > ul > li {
     margin: 7vh auto; /* This is the % value for put lis menu in center*/
     border-radius: 5px, 0px;
     padding-bottom: 5px;
-    padding-left: 19px;
+    padding-left: 15px;
 }
 header > div.menubar > nav > ul > li > a {
     text-decoration: none;
