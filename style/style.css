@@ -18,7 +18,7 @@
 
 html, body {
     background-color: var(--main);
-    height: 100vh;
+    height: 87vh;
     width: 100vw;
     overflow: scroll;
 }
@@ -61,6 +61,10 @@ header > div.menubar > i#menu {
     padding: 0;
  }
 
+ header > div.menubar > nav > ul#itens > li > a{
+    text-decoration: none;
+    font-style: none;
+ }
                                                                             /*----- WELCOME ------*/
 
 
