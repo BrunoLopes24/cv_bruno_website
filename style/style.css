@@ -26,26 +26,46 @@ html, body {
 
                                                                     /*----- MENU -----*/
 
-    header > div.menubar {
+    header > i#menu {
         background-color: #D4CA33;
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         border-radius: 7px;
         margin: 2vh auto;
+        padding: 5px;
     }
 
-    header > div.menubar > i#menu {
-        margin: auto;
-    }
-
-    header > div.menubar > i#menu:hover {
+    header > i#menu:hover {
         color: blueviolet
     }
 
-    header > div.menubar > nav {
-        display: inline-block;
+    header > div.menubar {
+        position: relative;
+        background-color: #D4CA33;
+        width: 100vw;
+        top: -19px;
+        border-radius: 0px 0px 7px 7px;
+    }
+    header > div.menubar > nav > ul#itens {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        padding: 5px
+    }
+    header > div.menubar > nav > ul#itens > li > a {
+        text-decoration: none;
+        color : white
+    }
+
+    header > div.menubar > nav > ul#itens > li > a:hover {
+        color: blueviolet;
+    }
+    header > div.menubar > ul#itens {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
                                                                         /*----- WELCOME ------*/
 
