@@ -48,6 +48,7 @@ header > div.menubar {
 header > div.menubar > nav > ul {
     display: none;  /* In mobile the list menu will not be show*/
     list-style: none;
+    margin: auto;
 }
 header > div.menubar > nav > ul > li > a {
     display: inline; 
