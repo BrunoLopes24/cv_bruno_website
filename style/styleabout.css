@@ -36,6 +36,9 @@ html, body {
         padding: 5px;
     }
 
+    header > i#menu {
+        color: white;
+    }
     header > i#menu:hover {
         color: blueviolet
     }
