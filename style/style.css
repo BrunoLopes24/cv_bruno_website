@@ -53,7 +53,8 @@ html, body {
         align-items: center;
         justify-content: space-around;
         list-style: none;
-        padding: 5px
+        padding: 5px;
+        margin-bottom: -3.5vh;
     }
     header > div.menubar > nav > ul#itens > li > a {
         text-decoration: none;
@@ -76,6 +77,8 @@ main > div#welcome > p {
     align-items: center;
     justify-content: center;
     height: 55vh;
+    position: relative;
+    top: 1.5px;
 }
 
 main > div#welcome > p#devices {
