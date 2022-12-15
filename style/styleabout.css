@@ -53,7 +53,7 @@ header > div.menubar > nav > ul > li {
     width: 25vw;
     background-color: #D4CA33;
     float: left ; /* DISPLAY and FLOAT will put lis menu in center on mobile modes*/
-    margin: 9vh auto; /* This is the % value for put lis menu in center*/
+    margin: 7vh auto; /* This is the % value for put lis menu in center*/
     border-radius: 5px, 0px;
     padding-bottom: 5px;
     padding-left: 19px;
