@@ -87,7 +87,7 @@ main > div#welcome > p#devices {
 }
 
 p#devices > span#on {
-    color: green
+    color: rgb(2, 196, 2)
 }
 
 p#devices > span#off {
