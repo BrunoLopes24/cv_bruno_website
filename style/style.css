@@ -91,7 +91,7 @@ p#devices > span#on {
 }
 
 p#devices > span#off {
-    color: grey
+    color: rgb(135, 134, 134);
 }
                                                                             /*------ FOOTER ------*/
 
