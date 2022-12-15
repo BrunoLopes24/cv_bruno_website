@@ -114,7 +114,7 @@ main > p#devices {
 }
 
 p#devices > span#on {
-    color: red
+    color: green
 }
 
 p#devices > span#off {
