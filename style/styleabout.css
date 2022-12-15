@@ -118,7 +118,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: -4.5px;
+    top: -1px;
 }
 
 p#devices > span#on {
