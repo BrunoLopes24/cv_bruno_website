@@ -121,6 +121,23 @@ main > p#devices {
     top: -1px;
 }
 
+main i#fork {
+    position: relative;
+    left: 25px;
+    color: var(--menu);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+main i#linke {
+    position: relative;
+    left: 25px;
+    color: var(--menu);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
 p#devices > span#on {
     color: rgb(2, 196, 2)
 }
