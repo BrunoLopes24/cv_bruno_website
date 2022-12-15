@@ -90,6 +90,9 @@ p#devices > span#on {
     color: red
 }
 
+p#devices > span#off {
+    color: grey
+}
                                                                             /*------ FOOTER ------*/
 
 footer > p {
