@@ -48,8 +48,8 @@ header > div.menubar {
 header > div.menubar > nav > ul {
     display: none;  /* In mobile the list menu will not be show*/
     list-style: none;
-    margin: auto;
 }
+
 header > div.menubar > nav > ul > li > a {
     display: inline; 
     float: left; /* DISPLAY and FLOAT will put lis menu in center on mobile modes and horizontal*/
@@ -71,7 +71,7 @@ header > div.menubar > nav > ul > li > a:hover {
 main > div#presentation {
     position: absolute;
     top: 19vh;
-    left: 20vw;
+    left: 17vw;
     margin: auto;
     width: 70%;
     height: 60vh;
