@@ -49,7 +49,7 @@ html, body {
         padding-top: 0px;
     }
     header > div.menubar > nav > ul#itens {
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: space-around;
         list-style: none;
@@ -62,11 +62,6 @@ html, body {
 
     header > div.menubar > nav > ul#itens > li > a:hover {
         color: blueviolet;
-    }
-    header > div.menubar > ul#itens {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
     }
                                                                         /*----- WELCOME ------*/
 
