@@ -46,7 +46,7 @@ header > div.menubar > i#menu {
     padding: 7px;
 }
 
- i#menu:hover {
+ header > div.menubar > i#menu:hover {
     color: blueviolet;
  }
 
