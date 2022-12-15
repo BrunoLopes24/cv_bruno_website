@@ -70,7 +70,7 @@ html, body {
 main > div#presentation {
     margin: 2vh auto;
     width: 75%;
-    height: 55vh;
+    height: 45vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
@@ -86,7 +86,7 @@ main > div#presentation > img {
 }
 
 main > div#presentation > p {
-    padding: 10px 10px;
+    padding: 5px 10px;
     text-align: justify;
     text-indent: 10px;
     color: white;
