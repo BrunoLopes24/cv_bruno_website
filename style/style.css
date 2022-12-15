@@ -78,6 +78,14 @@ main > div#welcome > p {
     height: 55vh;
 }
 
+main > div#welcome > p#devices {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: -120px;
+}
+
                                                                             /*------ FOOTER ------*/
 
 footer > p {
