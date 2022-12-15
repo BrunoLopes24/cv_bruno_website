@@ -69,11 +69,12 @@ header > div.menubar > i#menu {
     align-items: center;
     border-radius: 0px 0px 7px 7px;
     padding: 0;
+    list-style: none;
  }
 
- header > div.menubar > nav > ul#itens > li > a{
+ header a {
+    color: white;
     text-decoration: none;
-    font-style: none;
  }
                                                                             /*----- WELCOME ------*/
 
