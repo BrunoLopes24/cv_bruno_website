@@ -73,7 +73,7 @@ main > div#presentation {
     top: 19vh;
     left: 20vw;
     margin: auto;
-    width: 70vw;
+    width: 70%;
     height: 60vh;
     border: 1px solid grey;
     background-color: var(--selfie);
