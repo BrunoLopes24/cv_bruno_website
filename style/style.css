@@ -47,7 +47,7 @@ header > div.menubar > i#menu {
     display: block;
     background-color: #D4CA33;
     margin: 2vh auto;
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 7px;
     padding: 7px;
     margin-bottom: 0;
 }
@@ -58,7 +58,7 @@ header > div.menubar > i#menu {
 
  header > div.menubar > nav > ul#itens {
     position: fixed;
-    top: 11vh;
+    top: 10vh;
     left: 0;
     right: 0;
     z-index: 99;
