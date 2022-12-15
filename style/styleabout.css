@@ -70,7 +70,7 @@ html, body {
 main > div#presentation {
     margin: 2vh auto;
     width: 75%;
-    height: 50vh;
+    height: 60vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
