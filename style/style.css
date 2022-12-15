@@ -18,7 +18,7 @@
 
 html, body {
     background-color: var(--main);
-    height: 87vh;
+    height: 100vh;
     width: 100vw;
     overflow: scroll;
 }
@@ -26,46 +26,31 @@ html, body {
 
                                                                     /*----- MENU -----*/
 
+main {
+    display: grid; 
+    height: 87vh;
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(3, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
 
-i#menu {
+header > div.menubar > i#menu {
+    display: inline-block;
     color: white;
     text-align: center;
     display: block;
-    cursor: pointer;
-    
+    background-color: #D4CA33;
+    margin: 2vh auto;
+    border-radius: 5px;
+    padding: 7px;
 }
 
  i#menu:hover {
     color: blueviolet;
  }
 
-header > div.menubar {
-    display: grid;
-    background-color: #D4CA33;
-    width: 100vw;
-    margin: 2vh auto;
-    position: fixed;  /* To always show when user scroll the webpage*/
-    padding: 10px;
-    border-radius: 5px;
-}
-header > div.menubar > nav > ul {
-    display: none; /* In mobile the list menu will not be show*/
-    list-style: none;
-}
-header > div.menubar > nav > ul > li > a {
-    display: inline; 
-    float: left; /* DISPLAY and FLOAT will put lis menu in center on mobile modes*/
-    margin-left: 2%; /* This is the % value for put lis menu in center*/
-    color: white;
-    padding-inline: 10px;
-    text-decoration: none;
-}
 
-header > div.menubar > nav > ul > li > a:hover {
-    flex-direction: row;
-    text-decoration: underline;
-    color: blueviolet;
-}
 
                                                                             /*----- WELCOME ------*/
 

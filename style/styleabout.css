@@ -36,37 +36,7 @@ i#menu {
     color: blueviolet;
  }
 
- header > i#menu {
-    display: grid;
-    background-color: #D4CA33;
-    width: 100vw;
-    margin: 2vh auto;
-    position: fixed;  /* To always show when user scroll the webpage*/
-    padding: 10px;
-    border-radius: 5px;
-}
-header > div.menubar > nav > ul {
-    display: none; /* In mobile the list menu will not be show*/
-    list-style: none;
-}
-header > div.menubar > nav > ul > li {
-    width: 25vw;
-    background-color: #D4CA33;
-    float: left ; /* DISPLAY and FLOAT will put lis menu in center on mobile modes*/
-    margin: 7vh auto; /* This is the % value for put lis menu in center*/
-    border-radius: 5px, 0px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-}
-header > div.menubar > nav > ul > li > a {
-    text-decoration: none;
-    color: white;
-}
-header > div.menubar > nav > ul > li > a:hover {
-    flex-direction: row;
-    text-decoration: underline;
-    color: blueviolet;
-}
+ 
 
                                                                             /*----- PRESENTATION ------*/
 
