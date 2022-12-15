@@ -69,7 +69,7 @@ html, body {
 
 main > div#presentation {
     position: relative;
-    top: -4px;
+    top: 1.5px;
     margin: 3vh auto;
     width: 75%;
     height: 54vh;
