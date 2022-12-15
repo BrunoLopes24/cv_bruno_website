@@ -85,6 +85,13 @@ main > div#presentation > img {
     border-radius: 50%;
 }
 
+main > div#presentation > p {
+    padding: 10px 10px;
+    text-align: justify;
+    text-indent: 20px;
+    color: white;
+}
+
 main > p#devices {
     color: white;
     position: relative;
