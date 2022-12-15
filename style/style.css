@@ -20,7 +20,7 @@ html, body {
     background-color: var(--main);
     height: 87vh;
     width: 100vw;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 
