@@ -86,6 +86,10 @@ main > div#welcome > p#devices {
     top: -120px;
 }
 
+p#devices > span#on {
+    color: red
+}
+
                                                                             /*------ FOOTER ------*/
 
 footer > p {
