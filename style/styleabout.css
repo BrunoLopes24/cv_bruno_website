@@ -101,7 +101,10 @@ main > div#presentation > ul {
 
 main > div#presentation > ul > li {
     border: 1px solid;
-    background-color: var(--menu-hover);
+    background-color: #6024d783;
+    width: 70%;
+    margin: 0.8vh auto;
+    text-align: center;
 }
 
 main > p#devices {
