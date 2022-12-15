@@ -44,7 +44,6 @@ header > div.menubar > i#menu {
     display: inline-block;
     color: white;
     text-align: center;
-    display: block;
     background-color: #D4CA33;
     margin: 2vh auto;
     border-radius: 7px;
@@ -63,7 +62,7 @@ header > div.menubar > i#menu {
     right: 0;
     z-index: 99;
     background-color: #D4CA33;
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -76,6 +75,10 @@ header > div.menubar > i#menu {
  header a {
     color: white;
     text-decoration: none;
+ }
+
+ header a:hover {
+    color: blueviolet;
  }
                                                                             /*----- WELCOME ------*/
 
