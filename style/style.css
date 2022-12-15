@@ -18,7 +18,7 @@
 
 html, body {
     background-color: var(--main);
-    height: 87vh;
+    height: 100vh;
     width: 100vw;
     overflow: hidden;
 }
@@ -26,61 +26,28 @@ html, body {
 
                                                                     /*----- MENU -----*/
 
-main {
-    display: grid; 
-    height: 87vh;
-    grid-template-columns: 1fr; 
-    grid-template-rows: repeat(3, 1fr); 
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
+    header > div.menubar {
+        background-color: #D4CA33;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 7px;
+        margin: 2vh auto;
+    }
 
-header > div.menubar > i#menu {
-    position: fixed;
-    top: 2vh;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    background-color: #D4CA33;
-    margin: 2vh auto;
-    border-radius: 7px;
-    padding: 9px;
-    margin-bottom: 0;
-}
+    header > div.menubar > i#menu {
+        margin: auto;
+    }
 
- header > div.menubar > i#menu:hover {
-    color: blueviolet;
- }
+    header > div.menubar > i#menu:hover {
+        color: blueviolet
+    }
 
- header > div.menubar > nav > ul#itens {
-    position: fixed;
-    top: 9.7vh;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    background-color: #D4CA33;
-    display: none;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 0px 0px 7px 7px;
-    padding: 0;
-    list-style: none;
-    padding: 12px;
- }
-
- header a {
-    color: white;
-    text-decoration: none;
- }
-
- header a:hover {
-    color: blueviolet;
- }
-                                                                            /*----- WELCOME ------*/
+    header > div.menubar > nav {
+        display: inline-block;
+    }
+                                                                        /*----- WELCOME ------*/
 
 
 main > div#welcome > p {
@@ -92,7 +59,7 @@ main > div#welcome > p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 86vh;
+    height: 80vh;
 }
 
                                                                             /*------ FOOTER ------*/
