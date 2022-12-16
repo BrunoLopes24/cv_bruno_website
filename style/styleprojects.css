@@ -75,23 +75,23 @@ main > div#projects {
     top: 1.5px;
     margin: 3vh auto;
     width: 75%;
-    height: 54vh;
+    height: 60vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
     box-shadow: 0px 0px 6px black;
 }
 
-main > div#projects > h2 {
+main > div#projects > div#content > h2 {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
 }
 
-main > div#projects > p {
+main > div#projects > div#content > p {
     display: flex;
     justify-self: center;
-    padding: 10px 10px;
+    padding: 20px 10px;
     text-align: justify;
     text-indent: 10px;
     color: white;
@@ -102,22 +102,22 @@ div#projects p#p {
     margin-top: -7px;
 }
 
-main > div#projects > p#farmacia {
+main > div#projects > div#content > p#farmacia {
     display: flex;
     background: black url(../images/menufar.png) no-repeat center center;
     background-size: cover;
     width: 70vw;
     height: 16vh;
-    margin: auto;
+    margin: 4vh auto;
 }
-
+                                                                            /*---- DEVICES ACTIVE ----*/
 main > p#devices {
     color: white;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: -1px;
+    top: 45px;
 }
 
 p#devices > span#on {
