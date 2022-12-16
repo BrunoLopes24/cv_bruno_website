@@ -74,7 +74,7 @@ main > div#contact {
     position: relative;
     top: 1.5px;
     margin: 3vh auto;
-    width: 80%;
+    width: 75%;
     height: 54vh;
     border: 1px solid grey;
     background-color: var(--selfie);
@@ -82,15 +82,29 @@ main > div#contact {
     box-shadow: 0px 0px 6px black;
 }
 
-main > div#contact > fieldset#form > form {
+main > div#contact > fieldset#form {
+    height: 53vh;
     box-shadow: inset 5px -5px 6px var(--menu-hover);
     text-align: center;
     padding: 5px;
 }
 
-main > div#contact > fieldset#form > form > button{
+main > div#contact > fieldset#form > form > label#nome{
+    position: relative;
     width: 40vw;
-    margin-bottom: 10px;
+    top: 40px;
+}
+
+main > div#contact > fieldset#form > form > label#city{
+    position: relative;
+    width: 40vw;
+    top: 60px;
+}
+
+main > div#contact > fieldset#form > form > button{
+    position: relative;
+    width: 40vw;
+    top: 70px;
 }
 
 main > div#contact > fieldset#form > form > fieldset#formr {
