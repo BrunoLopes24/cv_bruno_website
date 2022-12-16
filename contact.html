@@ -28,51 +28,53 @@
     <main>
         <div id="contact">
             
-            <fieldset id="form">
-                <legend style="text-align: center; color: #471b9f;"> CONTACT ME</legend>
-                <form action="" method="post" autocomplete="on">
-                    <label for="iname" id="nome">
-                        <p> Company Name: <input class="comp" type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name" style="text-align: center;" required></p>
-                    </label>
+            <div id="formu">
+                <fieldset id="form">
+                    <legend style="text-align: center; color: #471b9f;"> CONTACT ME</legend>
 
-                    <label for="icity" id="city">
-                        <p>City:</p>
-                        <select name="city" id="icity">
-                            <optgroup label="Norte" >
-                                <option value="Viana do Castelo">Viana do Castelo</option>
-                                <option value="Braga">Braga</option>
-                                <option value="Porto">Porto</option>
-                                <option value="Aveiro">Aveiro</option>
-                            </optgroup>
-                            <optgroup label="Centro" >
-                                <option value="Coimbra">Coimbra</option>
-                                <option value="Leiria">Leiria</option>
-                                <option value="Santarém">Santarém</option>
-                                <option value="Lisboa">Lisboa</option>
-                            </optgroup>
-                            <optgroup label="Sul" >
-                                <option value="Setubal">Setúbal</option>
-                                <option value="Evora">Évora</option>
-                                <option value="Beja">Beja</option>
-                                <option value="Faro">Faro</option>
-                            </optgroup>
-                            <optgroup label="Europe">
-                                   <option value="Europe"> European Country</option>
-                            </optgroup>
-                        </select>
-                    </label> <br> <br>
+                    <form action="" method="post" autocomplete="on">
+                        <label for="iname" id="nome">
+                            <p> Company Name: <br><input class="comp" type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name" style="text-align: center;" required></p>
+                        </label>
 
-                    
-                        <fieldset id="formr" style="position: relative; top: 60px;">
-                            <h4>Reason:</h4>
-                            <input type="radio" name="how" id="cv" required> I want your CV! <br>
-                            <input type="radio" name="how" id="moreabout" required> Would like to know more about this website!
-                            <br> <br>
-                        </fieldset>
-                    
-                    <button type="submit">Submit</button>
-                </form>
-            </fieldset>
+                        <label for="icity" id="city">
+                            <p>City:</p>
+                            <select name="city" id="icity">
+                                <optgroup label="Norte" >
+                                    <option value="Viana do Castelo">Viana do Castelo</option>
+                                    <option value="Braga">Braga</option>
+                                    <option value="Porto">Porto</option>
+                                    <option value="Aveiro">Aveiro</option>
+                                </optgroup>
+                                <optgroup label="Centro" >
+                                    <option value="Coimbra">Coimbra</option>
+                                    <option value="Leiria">Leiria</option>
+                                    <option value="Santarém">Santarém</option>
+                                    <option value="Lisboa">Lisboa</option>
+                                </optgroup>
+                                <optgroup label="Sul" >
+                                    <option value="Setubal">Setúbal</option>
+                                    <option value="Evora">Évora</option>
+                                    <option value="Beja">Beja</option>
+                                    <option value="Faro">Faro</option>
+                                </optgroup>
+                                <optgroup label="Europe">
+                                       <option value="Europe"> European Country</option>
+                                </optgroup>
+                            </select>
+                        </label> <br> <br>
+                
+                            <fieldset id="formr">
+                                <h4>Reason:</h4>
+                                <input type="radio" name="how" id="cv" required> I want your CV! <br>
+                                <input type="radio" name="how" id="moreabout" required> Would like to know more about this website!
+                                <br> <br>
+                            </fieldset>
+                
+                        <button type="submit">Submit</button>
+                    </form>
+                </fieldset>
+            </div>
         </div>
         <p id="devices">
             <span id="on" class="material-symbols-outlined">
