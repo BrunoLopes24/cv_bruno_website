@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/styleabout.css">
+    <link rel="stylesheet" href="style/stylecontact.css">
     <link rel="stylesheet" href="style/mediaqueries.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> <!-- Show all devices under screen -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Linkedin Logo-->
@@ -26,16 +26,45 @@
         </div>
     </header>
     <main>
-        <div id="presentation">
-            <img src="images/selfie_gd1.jpeg" alt="Bruno Lopes Selfie">
-
-            <p>Hello, my name is Bruno Lopes and this is my responsive website presentation! I hope you like.</p>
-
-            <ul>
-                <li><a href="www.linkedin.com/in/brunolopes148" target="_blank" rel="next"> Linkedin <i id="linke" class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/BrunoLopes24" target="_blank" rel="next"> Github <i id="fork" class="gg-git-fork"></i></a></li>
-
-            </ul>
+        <div id="contact">
+            
+            <fieldset id="form">
+                <legend style="text-align: center; color: white;"> CONTACT ME</legend>
+                <form action="" method="post" autocomplete="on">
+                    <label for="iname">
+                        <p> Company Name: <input type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name"  required></p>
+                    </label>
+                    <label for="icity">
+                        <p>City:</p>
+                        <select name="city" id="icity">
+                            <optgroup label="Norte" >
+                                <option value="Viana do Castelo">Viana do Castelo</option>
+                                <option value="Braga">Braga</option>
+                                <option value="Porto">Porto</option>
+                                <option value="Aveiro">Aveiro</option>
+                            </optgroup>
+                            <optgroup label="Centro" >
+                                <option value="Coimbra">Coimbra</option>
+                                <option value="Leiria">Leiria</option>
+                                <option value="Santarém">Santarém</option>
+                                <option value="Lisboa">Lisboa</option>
+                            </optgroup>
+                            <optgroup label="Sul" >
+                                <option value="Setubal">Setúbal</option>
+                                <option value="Evora">Évora</option>
+                                <option value="Beja">Beja</option>
+                                <option value="Faro">Faro</option>
+                            </optgroup>
+                            <optgroup label="Europe">
+                                   <option value="Europe"> European Country</option>
+                            </optgroup>
+                        </select>
+                    </label> <br> <br>
+                    <h4>Reason:</h4>
+                    <input type="radio" name="how" id="ireason"> I want your CV! <br>
+                    <input type="radio" name="how" id="ireason"> Would like to know more about this website!
+                </form>
+            </fieldset>
         </div>
         <p id="devices">
             <span id="on" class="material-symbols-outlined">
@@ -64,7 +93,9 @@
             } else {
                 itens.style.display = 'flex'
             }
-        }    
+        } 
     </script>
+  
+    
 </body>
 </html>
