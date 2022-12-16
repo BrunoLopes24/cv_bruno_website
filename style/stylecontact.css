@@ -75,7 +75,7 @@ main > div#contact {
     top: 1.5px;
     margin: 3vh auto;
     width: 75%;
-    height: 58vh;
+    height: 60vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
@@ -90,7 +90,7 @@ main > div#contact > div#formu {
 }
 
 main > div#contact > div#formu > fieldset#form {
-    height: 56vh;
+    height: 58.5vh;
     display: flex;
     text-align: center;
 }
@@ -120,7 +120,7 @@ main > div#contact > div#formu > fieldset#form > form > label#mail {
 
 main > div#contact > div#formu > fieldset#form > form >button  {
     position: relative;
-    top: 120px;
+    top: 130px;
     width: 40vw;
     padding: 2px;
     border-radius: 7px;
