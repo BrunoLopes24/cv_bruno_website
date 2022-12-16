@@ -82,12 +82,20 @@ main > div#contact {
     box-shadow: 0px 0px 6px black;
 }
 
-main > div#contact > p {
-    padding: 20px 10px;
-    text-align: justify;
-    text-indent: 10px;
-    color: white;
+main > div#contact > fieldset#form > form {
+    box-shadow: inset 0px 0px 6px var(--menu-hover);
+    text-align: center;
+    padding: 5px;
 }
+
+main > div#contact > fieldset#form > form > button{
+    width: 40vw;
+}
+
+main > div#contact > fieldset#form > form > input#moreabout {
+    font-size: 13px;
+}
+
 main > p#devices {
     color: white;
     position: relative;
@@ -96,13 +104,6 @@ main > p#devices {
     justify-content: space-around;
     top: -1px;
 }
-
-main > div#contact > fieldset#form > form > button{
-    width: 40vw;
-    position: relative;
-    left: 18vw;
-}
-
 p#devices > span#on {
     color: rgb(2, 196, 2)
 }
