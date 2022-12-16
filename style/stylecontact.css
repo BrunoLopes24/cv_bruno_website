@@ -109,6 +109,7 @@ main > div#contact > div#formu > fieldset#form > form > fieldset#formr {
     position: relative;
     top: 7.6vh;
     border: 0px;
+    padding: 3.5px;
 }
 
 main > div#contact > div#formu > fieldset#form > form > label#mail {
