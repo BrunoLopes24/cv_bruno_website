@@ -83,17 +83,19 @@ main > div#contact {
 }
 
 main > div#contact > fieldset#form > form {
-    box-shadow: inset 0px 0px 6px var(--menu-hover);
+    box-shadow: inset 5px -5px 6px var(--menu-hover);
     text-align: center;
     padding: 5px;
 }
 
 main > div#contact > fieldset#form > form > button{
     width: 40vw;
+    margin-bottom: 10px;
 }
 
-main > div#contact > fieldset#form > form > input#moreabout {
-    font-weight: bolder;
+main > div#contact > fieldset#form > form > fieldset#formr {
+    border: 0px;
+
 }
 
 main > p#devices {

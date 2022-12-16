@@ -29,7 +29,7 @@
         <div id="contact">
             
             <fieldset id="form">
-                <legend style="text-align: center; color: white;"> CONTACT ME</legend>
+                <legend style="text-align: center; color: #471b9f;"> CONTACT ME</legend>
                 <form action="" method="post" autocomplete="on">
                     <label for="iname">
                         <p> Company Name: <input class="comp" type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name" style="text-align: center;" required></p>
@@ -62,10 +62,12 @@
                         </select>
                     </label> <br> <br>
 
-                    <h4>Reason:</h4>
-                    <input type="radio" name="how" id="cv"> I want your CV! <br>
-                    <input type="radio" name="how" id="moreabout"> Would like to know more about this website!
-                    <br> <br>
+                    <fieldset id="formr">
+                        <h4>Reason:</h4>
+                        <input type="radio" name="how" id="cv"> I want your CV! <br>
+                        <input type="radio" name="how" id="moreabout"> Would like to know more about this website!
+                        <br> <br>
+                    </fieldset>
                     <button type="submit">Submit</button>
                 </form>
             </fieldset>
