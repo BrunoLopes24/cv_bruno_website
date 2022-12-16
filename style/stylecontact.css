@@ -97,14 +97,10 @@ main > p#devices {
     top: -1px;
 }
 
-main > div#contact > fieldset#form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 10px;
-    margin: 1.5vh auto;
-    box-shadow: inset 0px 0px 5px black;
+main > div#contact > fieldset#form > form > button{
+    width: 40vw;
+    position: relative;
+    left: 18vw;
 }
 
 p#devices > span#on {
