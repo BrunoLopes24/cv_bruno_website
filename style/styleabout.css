@@ -121,6 +121,13 @@ main > p#devices {
     top: -1px;
 }
 
+main > div#presentation > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+main > div#presentation > ul > li > a:hover {
+    color: rgb(97, 31, 160);
+}
 main i#fork {
     position: relative;
     left: 25px;
