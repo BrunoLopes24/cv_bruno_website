@@ -132,7 +132,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: 50px;
+    top: 45px;
 }
 p#devices > span#on {
     color: rgb(2, 196, 2)
