@@ -75,7 +75,7 @@ main > div#contact {
     top: 1.5px;
     margin: 3vh auto;
     width: 75%;
-    height: 54vh;
+    height: 58vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
@@ -90,24 +90,24 @@ main > div#contact > div#formu {
 }
 
 main > div#contact > div#formu > fieldset#form {
-    height: 52vh;
+    height: 56vh;
     display: flex;
     text-align: center;
 }
 
 main > div#contact > div#formu > fieldset#form > form > label#nome {
     position: relative;
-    top: 5vh;
+    top: 2vh;
 }
 
 main > div#contact > div#formu > fieldset#form > form > label#city {
     position: relative;
-    top: 8vh;
+    top: 5vh;
 }
 
 main > div#contact > div#formu > fieldset#form > form > fieldset#formr {
     position: relative;
-    top: 10vh;
+    top: 7.6vh;
     border: 0px;
 }
 
