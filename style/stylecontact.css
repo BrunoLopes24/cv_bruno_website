@@ -119,7 +119,7 @@ main > div#contact > div#formu > fieldset#form > form > label#mail {
 
 main > div#contact > div#formu > fieldset#form > form >button  {
     position: relative;
-    top: 130px;
+    top: 120px;
     width: 40vw;
     padding: 6px;
     border-radius: 7px;
