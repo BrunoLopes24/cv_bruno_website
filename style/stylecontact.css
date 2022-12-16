@@ -74,7 +74,7 @@ main > div#contact {
     position: relative;
     top: 1.5px;
     margin: 3vh auto;
-    width: 75%;
+    width: 80%;
     height: 54vh;
     border: 1px solid grey;
     background-color: var(--selfie);
@@ -93,7 +93,7 @@ main > div#contact > fieldset#form > form > button{
 }
 
 main > div#contact > fieldset#form > form > input#moreabout {
-    font-size: 13px;
+    font-weight: bolder;
 }
 
 main > p#devices {
