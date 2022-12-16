@@ -106,7 +106,7 @@ main > div#presentation >div#content >  ul {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 12vh;
+    top: 10vh;
     color: white;
     list-style: none;
 }
