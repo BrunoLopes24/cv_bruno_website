@@ -110,6 +110,13 @@ main > div#contact > div#formu > fieldset#form > form > fieldset#formr {
     top: 10vh;
     border: 0px;
 }
+
+main > div#contact > div#formu > fieldset#form > form > label#mail {
+    position: relative;
+    top: 10vh;
+    border: 0px;
+}
+
 main > div#contact > div#formu > fieldset#form > form >button  {
     position: relative;
     top: 130px;
