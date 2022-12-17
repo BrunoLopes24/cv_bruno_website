@@ -89,11 +89,19 @@ main > div#welcome > p#devices {
     top: -120px;
 }
 
-p#devices > span#on {
+p#devices > span#mob {
     color: rgb(2, 196, 2)
 }
 
-p#devices > span#off {
+p#devices > span#tab {
+    color: rgb(135, 134, 134);
+}
+
+p#devices > span#mac {
+    color: rgb(135, 134, 134);
+}
+
+p#devices > span#deskt {
     color: rgb(135, 134, 134);
 }
                                                                             /*------ FOOTER ------*/
