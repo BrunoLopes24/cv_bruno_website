@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/mediaqueriesindex.css">
+    <link rel="stylesheet" href="style/mqall.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  <!-- Show all devices under screen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Linkedin Logo-->
+    <link href='https://css.gg/git-fork.css' rel='stylesheet'> <!-- Github Logo -->
     <title>Bruno Lopes Presentation</title>
 </head>
 <body>
@@ -15,10 +17,10 @@
         <div class="menubar">
             <nav>
                 <ul id="itens">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact me</a></li>
+                    <li><a href="index.html" class="disabled-link">Home</a></li>
+                    <li><a href="about.html" class="disabled-link">About me</a></li>
+                    <li><a href="projects.html" class="disabled-link">Projects</a></li>
+                    <li><a href="contact.html" class="disabled-link">Contact me</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,25 +28,54 @@
     <main>
         <div id="welcome">
             <p>Welcome!</p>
-            <p id="devices">
-                <span id="mob" class="material-symbols-outlined">
-                    smartphone
-                </span>
-                <span id="tab" class="material-symbols-outlined">
-                    tablet_mac
-                    </span>
-                <span id="mac" class="material-symbols-outlined">
-                    laptop_mac
-                </span>
-                <span id="deskt" class="material-symbols-outlined">
-                    desktop_mac
-                    </span>
-            </p>
+        </div>
+
+
+        <div id="presentation">
+            <div id="content">
+                <img src="images/selfie_gd1.jpeg" alt="Bruno Lopes Selfie">
+                <p>Hello, my name is Bruno Lopes and this is my responsive website presentation! I hope you like.</p>
+                <p style="text-align: center;" class="exp"> My work experience: </p>
+                <p class="exp"> Armed Forces Occupations on Marinha Portuguesa (2018 - 2022)</p>
+                <ul>
+                    <li><a href="www.linkedin.com/in/brunolopes148" target="_blank" rel="next"> Linkedin <i id="linke" class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/BrunoLopes24" target="_blank" rel="next"> Github <i id="fork" class="gg-git-fork"></i></a></li>
+                </ul>
+            </div>
+    </div>
+    </main>
+    <article class="other">
+    <div id="about">
+
+        <div id="content1">
+            <h2>About Me</h2>
+            <p> I have 25 years old and my primary hobbies is: </p>
+            <ul>
+                <li> Learn some Front-end tech.</li>
+                <li> Keep up to Economy and Investments Market.</li>
+                <li> Do Judo. </li>
+                <li> Listen Music. </li>
+            </ul>
+            <p> I have a some things that I have already learned. If you wanna see that, you can <a href="contact.html" class="disabled-link">contact me!</a> to show you my Curriculum Vitae</p>
         </div>
     </div>
 
 
-    </main>
+    <p id="devices">
+        <span id="mob" class="material-symbols-outlined">
+            smartphone
+        </span>
+        <span id="tab" class="material-symbols-outlined">
+            tablet_mac
+            </span>
+        <span id="mac" class="material-symbols-outlined">
+            laptop_mac
+        </span>
+        <span id="deskt" class="material-symbols-outlined">
+            desktop_mac
+            </span>
+    </p>
+    </article>
     <footer>
         <p style="text-align: center;"> This was made with &heartsuit; by Bruno Lopes</p>
     </footer>
