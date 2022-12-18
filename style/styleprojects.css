@@ -129,7 +129,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: 0px;
+    top: -7px;
 }
 
 p#devices > span#on {
