@@ -19,7 +19,7 @@ html, body {
     background-color: var(--main);
     height: 100vh;
     width: 100vw;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 
@@ -173,7 +173,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: -7px;
+    top: 2px;
 }
 
 p#devices > span#on {
