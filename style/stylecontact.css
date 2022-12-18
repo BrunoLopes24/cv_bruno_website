@@ -93,6 +93,7 @@ main > div#contact > div#formu > fieldset#form {
     height: 58.5vh;
     display: flex;
     text-align: center;
+    margin: 0 auto;
 }
 
 main > div#contact > div#formu > fieldset#form > form > label#nome {

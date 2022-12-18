@@ -57,7 +57,6 @@
                                                             /*---- WELCOME ----*/    
 
     main {
-        border: 1px solid;
         display: flex;
         flex-direction: row;
         height: 50vh;
@@ -122,20 +121,36 @@
         flex-direction: row;
         justify-content: space-around; 
         position: relative;
-        top: 4.7vh;
+        top: 3vh;
         left: 6vw;
     }
 
     main > div#presentation > div#content > ul > li > a { 
         border: 1px solid;
         border-radius: 6px;
-        padding: 0px 20px;
+        padding: 5px 20px;
         color: white;
         text-decoration: none;
         margin-left: -30px;
     }
     main > div#presentation > div#content > ul > li > a:hover { 
         background-color: #8F57FF;
+    }
+    main i#fork {
+        position: relative;
+        left: 3px;
+        color: var(--menu);
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    main i#linke {
+        position: relative;
+        left: 3px;
+        color: var(--menu);
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
                                                             /*----- DEVICES ACTIVE -----*/
 
