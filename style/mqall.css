@@ -213,7 +213,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 10px 13px;
-        margin: 0 auto;
+        margin: 1vh auto;
         box-shadow: inset 0px 0px 5px rgba(0, 0, 0);
     }
 
