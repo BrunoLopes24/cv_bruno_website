@@ -123,6 +123,7 @@
         position: relative;
         top: 3vh;
         left: 6vw;
+        margin: 6 auto;
     }
 
     main > div#presentation > div#content > ul > li > a { 
