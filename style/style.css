@@ -120,6 +120,10 @@ div#presentation {
 div#about {
     display: none;
 }
+
+div#projects {
+    display: none;
+}
                                                                             /*------ FOOTER ------*/
 
 footer > p {

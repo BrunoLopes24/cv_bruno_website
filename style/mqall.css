@@ -220,64 +220,7 @@
     article.other > div#about > div#content1 > ul > li { 
         position: relative;
         left: 10px;
-    }
-
-                                                                    /*----- MY PROJECTS -----*/
-
-    main > div#projects {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: 10vh;
-        margin: 0vh auto;
-        width: fit-content;
-        block-size: fit-content;
-        height: 70vh;
-        border: 1px solid grey;
-        background-color: var(--selfie);
-        border-radius: 10px;
-        box-shadow: 0px 0px 6px black;
-        justify-content: space-evenly;
-    }
-    
-    main > div#presentation > div#content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: fit-content;
-        block-size: fit-content;
-    }
-    
-    main > div#projects > div#content > h2 {
-        display: flex;
-        justify-content: center;
-        margin-top: 2vh;
-        font-size: medium;
-    }
-    
-    main > div#projects > div#content > p {
-        font-size: small;
-        display: flex;
-        justify-self: center;
-        padding: 20px 10px;
-        text-align: justify;
-        text-indent: 10px;
-        color: white;
-    }
-    
-    div#projects p#p {
-        padding-top: 0px;
-        margin-top: -7px;
-    }
-    
-    main > div#projects > div#content > p#farmacia {
-        display: flex;
-        background: black url(../images/menufar.png) no-repeat center center;
-        background-size: cover;
-        width: 70vw;
-        height: 16vh;
-        margin: 4vh auto;
-    }
+    }                                                               
 
                                                             /*----- DEVICES ACTIVE -----*/
 
