@@ -160,8 +160,8 @@
         display: flex;
         position: relative;
         margin: 3vh auto;
-        width: 75%;
-        height: 60vh;
+        width: 90%;
+        height: 40vh;
         border: 1px solid grey;
         background-color: var(--selfie);
         border-radius: 10px;
@@ -171,9 +171,17 @@
     div#about > div#content1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        color: white;
     }
 
+    div#about > div#content1 > h2 {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    div#about > div#content1 > p {
+        text-indent: 20px;
+    }
 
                                                             /*----- DEVICES ACTIVE -----*/
 
@@ -181,8 +189,11 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        flex-direction: column;
         position: relative;
-        top: 25vh;
+        height: 50vh;
+        top: -96vh;
+        left: -45.5vw;
     }
 
     p#devices > span#mob {
