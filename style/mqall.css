@@ -162,66 +162,80 @@
     }
 
                                                         /*---- About ME -----*/
-    div#about {
+    article.other > div#about {
         display: flex;
         position: relative;
         margin: 3vh auto;
         width: 90%;
-        height: 40vh;
+        height: 22vh;
         border: 1px solid grey;
         background-color: var(--selfie);
         border-radius: 10px;
         box-shadow: 0px 0px 6px black;
     }
 
-    div#about > div#content1 {
+    article.other > div#about > div#content1 {
         display: flex;
         flex-direction: column;
         color: white;
+        margin: 0 auto;
     }
 
-    div#about > div#content1 > h2 {
-        text-align: center;
+    article.other > div#about > div#content1 > h2 {
+        display: flex;
+        width: 90vw;
+        justify-content: center;
         padding-top: 15px;
         padding-bottom: 20px;
     }
-    div#about > div#content1 > p {
+
+    article.other > div#about > div#content1 > p {
         text-indent: 20px;
+        padding: 0px 5px;
     }
-
-
+    article.other > div#about > div#content1 > p > a {
+        text-decoration: none;
+        color: rgb(118, 0, 228);
+    }
+    article.other > div#about > div#content1 > ul {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px 13px;
+        margin: 0 auto;
+    }
 
                                                             /*----- DEVICES ACTIVE -----*/
 
-    p#devices{
+    article.other > p#devices{
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
         position: relative;
         height: 50vh;
-        top: -96vh;
+        top: -80vh;
         left: -45.5vw;
     }
 
-    p#devices > span#mob {
+    article.other > p#devices > span#mob {
         color: rgb(173, 170, 170)
     }
     
-    p#devices > span#tab {
+    article.other > p#devices > span#tab {
         color: rgb(3, 255, 3);
     }
     
-    p#devices > span#mac {
+    article.other > p#devices > span#mac {
         color: rgb(151, 168, 168);
     }
     
-    p#devices > span#deskt {
+    article.other > p#devices > span#deskt {
         color: rgb(192, 190, 190);
     }
                                                                             /*------ FOOTER ------*/
 
-footer > p {
+    footer > p {
         border: 1px solid;
         position:absolute;
         bottom:0;
