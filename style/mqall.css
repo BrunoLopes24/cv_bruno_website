@@ -8,7 +8,7 @@
     --menu-hover : #3A1387;
     --menu: #D4CA33;
 }
-@media only screen and (min-width: 768px){                             /* TABLET */
+@media only screen and (min-width: 768px){                                      /* TABLET */
     
     body {
         background-image: linear-gradient(to right, var(--main), var(--selfie) );
