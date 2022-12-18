@@ -77,7 +77,7 @@ main > div#presentation {
     top: 1.5px;
     margin: 3vh auto;
     width: 75%;
-    height: 75vh;
+    height: 70vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
@@ -87,7 +87,7 @@ main > div#presentation {
 main > div#presentation > div#content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 130%;
 }
 
@@ -102,7 +102,7 @@ main > div#presentation >div#content > div#parag {
 }
 
 main > div#presentation > div#content > img {
-    margin: 2vh auto;
+    margin: 0vh auto;
     height: 70px;
     border-radius: 50%;
 }
@@ -137,6 +137,7 @@ main > div#presentation >div#content >  ul > li {
     text-align: center;
     border-radius: 5px;
     padding: 1px;
+    font-size: smaller;
 }
 
 main > div#presentation >div#content >  ul > li > a {
@@ -172,7 +173,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: -5px;
+    top: -7px;
 }
 
 p#devices > span#on {
