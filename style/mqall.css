@@ -19,6 +19,12 @@
     header i#menu {
         display: none;
     }
+
+    header > div.menubar > nav > ul#itens > li > a.disabled-link {  /* To disable links */
+        pointer-events: none;        
+        color: white;
+    }
+
     header > div.menubar {
         display: block;
         flex-direction: column;
