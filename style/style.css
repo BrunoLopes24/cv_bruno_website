@@ -89,20 +89,32 @@ main > div#welcome > p#devices {
     top: -120px;
 }
 
+p#devices{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 15vh;
+}
+
 p#devices > span#mob {
-    color: rgb(2, 196, 2)
+    color: rgb(3, 255, 3)
 }
 
 p#devices > span#tab {
-    color: rgb(135, 134, 134);
+    color: rgb(151, 168, 168);
 }
 
 p#devices > span#mac {
-    color: rgb(135, 134, 134);
+    color: rgb(151, 168, 168);
 }
 
 p#devices > span#deskt {
-    color: rgb(135, 134, 134);
+    color: rgb(151,168,168);
+}
+
+div#presentation {
+    display: none;
 }
                                                                             /*------ FOOTER ------*/
 
