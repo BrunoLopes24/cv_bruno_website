@@ -71,11 +71,14 @@ html, body {
 
 
 main > div#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     position: relative;
     top: 1.5px;
     margin: 3vh auto;
     width: 75%;
-    height: 60vh;
+    height: 70vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
@@ -85,43 +88,48 @@ main > div#contact {
 main > div#contact > div#formu {
     display: flex;
     align-items: flex-start;
-    justify-items: center;
+    justify-content: space-around;
     padding: 5px;
 }
 
 main > div#contact > div#formu > fieldset#form {
-    height: 58.5vh;
+    height: 67vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 0 auto;
 }
 
+
+main > div#contact > div#formu > fieldset#form > form > fieldset#formr {
+    border: 0px;
+}
+
 main > div#contact > div#formu > fieldset#form > form > label#nome {
+    font-size: small;
     position: relative;
-    top: 2vh;
+    top: -4vh;
 }
 
 main > div#contact > div#formu > fieldset#form > form > label#city {
+    font-size: small;
     position: relative;
-    top: 5vh;
-}
-
-main > div#contact > div#formu > fieldset#form > form > fieldset#formr {
-    position: relative;
-    top: 7.6vh;
-    border: 0px;
-    padding: 3.5px;
+    top: -1vh;
 }
 
 main > div#contact > div#formu > fieldset#form > form > label#mail {
+    font-size: small;
     position: relative;
-    top: 8vh;
+    top: 0vh;
     border: 0px;
 }
 
 main > div#contact > div#formu > fieldset#form > form >button  {
+    font-size: small;
     position: relative;
-    top: 130px;
+    top: 4vh;
     width: 40vw;
     padding: 2px;
     border-radius: 7px;
@@ -133,7 +141,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: 45px;
+    top: 0px;
 }
 p#devices > span#on {
     color: rgb(2, 196, 2)
