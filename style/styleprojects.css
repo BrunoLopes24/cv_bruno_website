@@ -71,24 +71,36 @@ html, body {
 
 
 main > div#projects {
+    display: flex;
+    flex-direction: column;
     position: relative;
     top: 1.5px;
     margin: 3vh auto;
     width: 75%;
-    height: 60vh;
+    height: 70vh;
     border: 1px solid grey;
     background-color: var(--selfie);
     border-radius: 10px;
     box-shadow: 0px 0px 6px black;
+    justify-content: space-evenly;
+}
+
+main > div#presentation > div#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 130%;
 }
 
 main > div#projects > div#content > h2 {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
+    font-size: medium;
 }
 
 main > div#projects > div#content > p {
+    font-size: small;
     display: flex;
     justify-self: center;
     padding: 20px 10px;
@@ -117,7 +129,7 @@ main > p#devices {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: 45px;
+    top: 0px;
 }
 
 p#devices > span#on {
