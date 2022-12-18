@@ -20,11 +20,6 @@
         display: none;
     }
 
-    header > div.menubar > nav > ul#itens > li > a.disabled-link {  /* To disable links */
-        pointer-events: none;        
-        color: white;
-    }
-
     header > div.menubar {
         display: block;
         flex-direction: column;
@@ -49,6 +44,11 @@
         color : white;
         justify-content: center;
     }
+
+     header > div.menubar > nav > ul#itens > li > a.disabled-link { /* TO DISABLE LINK MENU */
+        pointer-events: none;          
+        color: white;
+    } 
 
     header > div.menubar > nav > ul#itens > li > a:hover {
         color: blueviolet;
@@ -100,7 +100,7 @@
     main > div#presentation > div#content > img {
         position: relative;
         margin: 3vw auto;
-        width: 100%;
+        width: 80%;
         height: 30%;
         left: 2.5vw;
     }
