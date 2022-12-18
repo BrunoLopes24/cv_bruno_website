@@ -105,14 +105,13 @@
 
     main > div#presentation >div#content >  p {
         position: relative;
-        top: -5px;
-        padding: 4px 10px;
+        top: 5px;
         text-align: justify;
         text-indent: 15px;
         color: white;
-        width: 34vw;
+        width: 36vw;
         margin: 0 auto;
-        height: 65px;
+        height: 7vh;
     }
     
     main > div#presentation > div#content > ul {
