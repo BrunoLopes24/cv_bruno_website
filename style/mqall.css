@@ -65,12 +65,15 @@
         margin: 0 auto;
     }
     main > div#welcome {
+        border: 1px solid red;
         color: white;
         font-family: "Amatic SC", cursive;
         font-size: 1em;
         font-weight: bolder;
         position: relative;
+        height: 60vh;
         left: 15%;
+        top: 3vh;
     }
 
                                                                                  /*---- PRESENTATION ------*/
@@ -245,15 +248,16 @@
     }
                                                             /*----- DEVICES ACTIVE -----*/
 
-    article.other > p#devices{
+    main > div#welcome > p#devices{
+        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
         position: relative;
-        height: 70vh;
-        top: -100vh;
-        left: 5vw;
+        height: 40vh;
+        top: -50vh;
+        left: -10vw;
         width: fit-content;
     }
 
