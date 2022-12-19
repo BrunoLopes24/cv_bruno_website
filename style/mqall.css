@@ -8,9 +8,10 @@
     --menu-hover : #3A1387;
     --menu: #D4CA33;
 }
-@media only screen and (min-width: 768px){                                      /* TABLET */
+@media only screen and (min-width: 600px){                                      /* SMALL TABLET */
     
-    body {
+    body,html {
+        height: 100vh;
         background-image: linear-gradient(to right, var(--main), var(--selfie) );
         overflow: scroll;
     }
@@ -225,7 +226,7 @@
         left: 10px;
     }                                                               
 
-                                                                /*---- PROJECTS ----*/
+                                                                /*---- ARROW DOWN ----*/
 
     article.other > div#img {
         margin: 0 auto;
@@ -234,14 +235,46 @@
         flex-direction: row;
         justify-content: center;
         position: relative;
-        top: 20px;
+        top: 40px;
     }
 
-    article.other > div#projects {
+                                                                /*---- PROJECTS ----*/    
+
+    article.other {
+        height: 100vh;
+    }
+   
+        article.other > div#projects {
         display: flex;
         position: relative;
-        top: 100px;
+        top: 80px;
+        margin: 3vh auto;
+        border: 1px solid grey;
+        background-color: var(--selfie);
+        border-radius: 10px;
+        box-shadow: 0px 0px 6px black;
+        width: 97vw;
+        block-size: fit-content;
+        padding-bottom: 10px;
+    }
+    article.other > div#projects > div#content2 {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        position: relative;
+        margin: 0 auto;
+        top: 0%;
+        width: fit-content;
+        block-size: fit-content;
+        
+    }
 
+    article.other > div#projects > div#content2 > h2 {
+        display: flex;
+        width: 90vw;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 20px;
     }
                                                             /*----- DEVICES ACTIVE -----*/
 
@@ -284,3 +317,24 @@
     }
 }
 
+@media only screen and (min-width: 992px){                                  /* LARGE TABLET and Laptops */
+                                                /* MENU*/
+    header > div.menubar {
+        display: block;
+        flex-direction: column;
+        background-color: #D4CA33;
+        width: 70vw;
+        margin: auto;
+        border-radius: 7px;
+        margin-top: 5vh ;
+        padding: 20px;
+    }
+    
+    
+    article.other > div#img {
+        display: none;
+        position: relative;
+        top: 50px;
+
+    }
+}
