@@ -214,7 +214,7 @@
         grid-template-columns: 1fr 1fr;
         padding: 10px 13px;
         margin: 1vh auto;
-        box-shadow: -3px 3px 5px rgba(0, 0, 0);
+        box-shadow: -3px 3px 3px rgba(0, 0, 0);
     }
 
     article.other > div#about > div#content1 > ul > li { 
