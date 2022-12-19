@@ -301,6 +301,13 @@
     article.other > div#projects > div#content2 >  div.img > img#far { 
         width: 60vw;
     }
+
+    article.other > div#projects > div#content2 >  p#new {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        width: 91.5vw;
+    }
                                                             /*----- DEVICES ACTIVE -----*/
 
     main > div#welcome > p#devices{
