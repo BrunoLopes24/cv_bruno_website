@@ -12,7 +12,7 @@
     
     body {
         background-image: linear-gradient(to right, var(--main), var(--selfie) );
-        overflow: hidden;
+        overflow: scroll;
     }
 
                                                         /*---- MENU ----*/
@@ -222,16 +222,20 @@
         left: 10px;
     }                                                               
 
+    article.other > div#projects {
+        display: flex;
+
+    }
                                                             /*----- DEVICES ACTIVE -----*/
 
     article.other > p#devices{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-direction: column;
         position: relative;
-        height: 50vh;
-        top: -75vh;
+        height: 40vh;
+        top: -80vh;
         left: 5vw;
         width: fit-content;
     }
