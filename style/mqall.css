@@ -236,8 +236,8 @@
         justify-content: space-evenly;
         flex-direction: column;
         position: relative;
-        height: 40vh;
-        top: -90vh;
+        height: 60vh;
+        top: -102vh;
         left: 5vw;
         width: fit-content;
     }
