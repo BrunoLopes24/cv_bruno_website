@@ -166,7 +166,8 @@
     article.other > div#about {
         display: flex;
         position: relative;
-        margin: 8vh auto;
+        top: 20px;
+        margin: 3vh auto;
         height: 22vh;
         border: 1px solid grey;
         background-color: var(--selfie);
@@ -198,6 +199,7 @@
     }
 
     article.other > div#about > div#content1 > p {
+        border: 1px solid red;
         text-indent: 20px;
         padding: 0px 5px;
         width: fit-content;
@@ -224,8 +226,21 @@
 
                                                                 /*---- PROJECTS ----*/
 
+    article.other > div#img {
+        border: 1px solid red;
+        margin: 0 auto;
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        top: 20px;
+    }
+
     article.other > div#projects {
         display: flex;
+        position: relative;
+        top: 100px;
 
     }
                                                             /*----- DEVICES ACTIVE -----*/
@@ -236,8 +251,8 @@
         justify-content: space-evenly;
         flex-direction: column;
         position: relative;
-        height: 60vh;
-        top: -102vh;
+        height: 70vh;
+        top: -100vh;
         left: 5vw;
         width: fit-content;
     }

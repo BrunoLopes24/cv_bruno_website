@@ -124,6 +124,10 @@ div#about {
 div#projects {
     display: none;
 }
+
+div#img {
+    display:none;
+}
                                                                             /*------ FOOTER ------*/
 
 footer > p {
