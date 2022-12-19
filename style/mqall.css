@@ -166,7 +166,7 @@
     article.other > div#about {
         display: flex;
         position: relative;
-        margin: 3vh auto;
+        margin: 8vh auto;
         height: 22vh;
         border: 1px solid grey;
         background-color: var(--selfie);
@@ -237,7 +237,7 @@
         flex-direction: column;
         position: relative;
         height: 40vh;
-        top: -80vh;
+        top: -90vh;
         left: 5vw;
         width: fit-content;
     }
