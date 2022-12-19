@@ -257,19 +257,19 @@
         width: fit-content;
     }
 
-    article.other > p#devices > span#mob {
+    main > div#welcome  > p#devices > span#mob {
         color: rgb(173, 170, 170)
     }
     
-    article.other > p#devices > span#tab {
+    main > div#welcome > p#devices >  span#tab {
         color: rgb(3, 255, 3);
     }
     
-    article.other > p#devices > span#mac {
+    main > div#welcome > p#devices >  span#mac {
         color: rgb(151, 168, 168);
     }
     
-    article.other > p#devices > span#deskt {
+    main > div#welcome > span#deskt {
         color: rgb(192, 190, 190);
     }
                                                                             /*------ FOOTER ------*/
