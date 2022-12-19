@@ -269,7 +269,7 @@
         color: rgb(151, 168, 168);
     }
     
-    main > div#welcome > span#deskt {
+    main > div#welcome > p#devices >  span#deskt {
         color: rgb(192, 190, 190);
     }
                                                                             /*------ FOOTER ------*/
