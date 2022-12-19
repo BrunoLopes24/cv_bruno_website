@@ -222,6 +222,8 @@
         left: 10px;
     }                                                               
 
+                                                                /*---- PROJECTS ----*/
+
     article.other > div#projects {
         display: flex;
 
