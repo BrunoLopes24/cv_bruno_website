@@ -237,7 +237,6 @@
         position: relative;
         top: 40px;
     }
-
                                                                 /*---- PROJECTS ----*/    
 
     article.other {
@@ -275,6 +274,33 @@
         justify-content: center;
         padding-top: 15px;
         padding-bottom: 20px;
+    }
+
+    article.other > div#projects > div#content2 > p  {
+        border: 1px solid;
+        text-indent: 20px;
+        width: fit-content;
+        height: auto;
+    }
+
+    article.other > div#projects > div#content2 >  div.img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    article.other > div#projects > div#content2 >  div.img > img {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 30vw;
+        position: relative;
+        top: 3px;
+    }
+
+    article.other > div#projects > div#content2 >  div.img > img#far { 
+        width: 60vw;
     }
                                                             /*----- DEVICES ACTIVE -----*/
 
