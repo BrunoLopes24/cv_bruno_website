@@ -28,6 +28,7 @@
     <main>
         <div id="welcome">
             <p>Welcome!</p>
+            <p id="wel">Welcome! <br> Merry Christmas!</p> <!-- CHRISTMAS MODE -->
             <p id="devices">
                 <span id="mob" class="material-symbols-outlined">
                     smartphone
@@ -43,7 +44,6 @@
                     </span>
             </p>
         </div>
-
 
         <div id="presentation">
             <div id="content">
@@ -83,14 +83,96 @@
             <h2>My Projects</h2>
             <p>The only project that I've made was on May 2017 - Jan 2018 at a pharmacy in my area.</p>
             <p id="p">In this Apprenticeship Internship, I've done a program in Visual Basic with main goal was to facilitate time management of their employees.</p>
-            <div class="img">
-                <img id="far" src="images/menufar.png" alt="" sizes="" srcset="">
-                <img src="images/Question-Mark.png" alt="">
-            </div>
-            <p id="new">More projects to come by soon!</p>
+            <div class="slider">
+                <figure>
+                    <img src="images/menufar.png" alt="">
+                    <img src="images/preview_scheadule.png" alt="">
+                    <img src="images/add_hours.png" alt="">
+                    <img src="images/menufar.png" alt="">
+                </figure>
+            </div>  
         </div>
     </div>
+
+    <div id="contact">
+        <div id="contentform">
+            <fieldset id="form">
+                <legend style="text-align: center; color: #471b9f;"> CONTACT ME</legend>
+
+                <form action="" method="post" autocomplete="on">
+                    <label for="iname" id="nome">
+                        <p> Company Name: <br><input class="comp" type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name" style="text-align: center;" required></p>
+                    </label>
+
+                    <label for="icity" id="city">
+                        <p>City:</p>
+                        <select name="city" id="icity">
+                            <optgroup label="Norte" >
+                                <option value="Viana do Castelo">Viana do Castelo</option>
+                                <option value="Braga">Braga</option>
+                                <option value="Porto">Porto</option>
+                                <option value="Aveiro">Aveiro</option>
+                            </optgroup>
+                            <optgroup label="Centro" >
+                                <option value="Coimbra">Coimbra</option>
+                                <option value="Leiria">Leiria</option>
+                                <option value="Santarém">Santarém</option>
+                                <option value="Lisboa">Lisboa</option>
+                            </optgroup>
+                            <optgroup label="Sul" >
+                                <option value="Setubal">Setúbal</option>
+                                <option value="Evora">Évora</option>
+                                <option value="Beja">Beja</option>
+                                <option value="Faro">Faro</option>
+                            </optgroup>
+                            <optgroup label="Europe">
+                                   <option value="Europe"> European Country</option>
+                            </optgroup>
+                        </select>
+                    </label> <br> <br>
+            
+                        <fieldset id="formr">
+                            <h4>Reason:</h4>
+                            <input type="radio" name="how" id="cv" required> I want your CV! <br>
+                            <input type="radio" name="how" id="moreabout" required> Want to know more about this website!
+                            <br> <br>
+                        </fieldset>
+
+                        <label for="imail" id="mail">
+                            <p> Email: <br><input class="comp" type="email" name="name" id="imail" maxlength="20" size="30" placeholder="Company Email" style="text-align: center;" required></p>
+                        </label>
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id="learn">
+        <div id="contentlearn">
+            <h2>What I've Learned:</h2> <br>
+            <legend style="color: black; text-align: center;">FREECODECAMP:</legend> <br>
+            <ul>
+                <li><a href="https://www.freecodecamp.org/certification/Bruno_Lopes24/scientific-computing-with-python-v7" target="_blank" rel="next">(Certification)</a> Python For Everybody | Beginner</li>
+            </ul> <br>
+            <legend style="color: black; text-align: center;">Youtube:</legend> <br>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="next">(1º Part Channel (PT-BR))</a> HTML5 and CSS3 </li>
+                <br>
+                <li><a href="https://www.youtube.com/watch?v=vPNIAJ9B4hg&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s" target="_blank" rel="next">(2º Part Channel (PT-BR))</a> HTML5 and CSS3 </li>
+                <br>
+                <li><a href="https://www.youtube.com/watch?v=ofFgnDtn_1c&list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ" target="_blank" rel="next">(3º Part Channel (PT-BR))</a> HTML5 and CSS3 </li>
+                <br>
+                <li><a href="https://www.youtube.com/watch?v=zHKHMmEG9vE&list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT" target="_blank" rel="next">(4º Part Channel (PT-BR))</a> HTML5 and CSS3 </li>
+                <br>
+                <li><a href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA" target="_blank" rel="next">(PT-BR Channel)</a> GIT and GITHUB Pages</li>
+                <br>
+            </ul>
+        </div>
+    </div>
+
     </article>
+
     <footer>
         <p style="text-align: center;"> This was made with &heartsuit; by Bruno Lopes</p>
     </footer>
