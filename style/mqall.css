@@ -382,7 +382,7 @@ article.other > div#contact {
     box-shadow: 0px 0px 6px black;
     width: fit-content;
     height: 50vh;
-    left: 15px;
+    left: 30vw;
 }
 
 article.other > div#contact > div#contactform {
@@ -433,43 +433,6 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     width: 25vw;
     padding: 2px;
     border-radius: 7px;
-}
-
-                        /*---- LEARNED ----*/
-
-article.other > div#learn {
-    display: block;
-    position: relative;
-    width: fit-content;
-    left: 55%;
-    top: -39vh;
-    background-color: var(--selfie);
-    border-radius: 10px;
-}
-
-article.other > div#learn > div#contentlearn {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    margin: 0 auto;
-    top: 0%;
-    width: 40vw;
-    left: -20px;
-    padding: 10px;
-}
-
-article.other > div#learn > div#contentlearn > ul > li {
-    text-align: left;
-    position: relative;
-    left: 25px;
-    list-style: none;
-}
-
-article.other > div#learn > div#contentlearn > ul > li > a{ 
-    text-decoration: none;
-    color: blue;
 }
 
 /*------ FOOTER ------*/
