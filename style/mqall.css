@@ -489,7 +489,7 @@ article.other > div#learn > div#contentlearn > ul > li > a{
         position:absolute;
         bottom:0;
         width: 100%;
-        block-size: fit-content;
+        height: 3vh;
         background:#8F57FF;
     }
 }
