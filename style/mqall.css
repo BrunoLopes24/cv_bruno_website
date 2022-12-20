@@ -257,7 +257,7 @@
         article.other > div#projects {
         display: flex;
         position: relative;
-        top: 80px;
+        top: 95px;
         margin: 0vh auto;
         border: 1px solid grey;
         background-color: var(--selfie);
@@ -377,7 +377,7 @@ article.other > div#contact {
     flex-direction: column;
     justify-content: right;
     position: relative;
-    top: 100px;
+    top: 105px;
     margin: 0 left;
     padding: 20px;
     border: 1px solid grey;
@@ -445,7 +445,7 @@ article.other > div#learn {
     flex-direction: column;
     justify-content: right;
     position: relative;
-    top: -28%;
+    top: -27%;
     margin: 0 left;
     padding: 20px;
     border: 1px solid grey;
@@ -461,7 +461,6 @@ article.other > div#learn {
 article.other > div#learn > div#contentlearn {
     text-align: center;
     display: flex;
-    border: 1px solid red;
     flex-direction: column;
     color: white;
     position: relative;
