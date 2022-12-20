@@ -70,14 +70,20 @@
     main > div#welcome {
         color: white;
         font-family: "Amatic SC", cursive;
-        font-size: 1em;
+        /*font-size: 1em; */ /* NORMAL */
+        font-size: 0.7em;
         font-weight: bolder;
         position: relative;
         height: 60vh;
         left: 15%;
         top: 3vh;
     }
-
+    main > div#welcome > p {
+        display: none;
+    }
+    main > div#welcome > p#wel {  /* CHRISTMAS MODE*/
+        display: flex;
+    }
                                                                                  /*---- PRESENTATION ------*/
     div#presentation {
         display: flex;
@@ -92,7 +98,8 @@
         background-size: cover;
         border-radius: 10px;
         box-shadow: 0px 0px 6px black;
-        left: 14%;
+        /*left: 14%;*/
+        left: 9%;
         top: 0%;
         overflow: hidden;
     }
@@ -244,7 +251,7 @@
                                                                 /*---- PROJECTS ----*/    
 
     article.other {
-        height: 100vh;
+        height: 150vh;
     }
    
         article.other > div#projects {
@@ -341,7 +348,75 @@
     main > div#welcome > p#devices >  span#deskt {
         color: rgb(192, 190, 190);
     }
-                                                                            /*------ FOOTER ------*/
+
+/*---- CONTACT FORM -----*/  
+
+article.other > div#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    top: 80px;
+    margin: 1.5vh;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: var(--selfie);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px black;
+    width: fit-content;
+    height: 30vh;
+}
+
+article.other > div#contact > div#contactform {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+article.other > div#contact > div#formu > fieldset#form {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+article.other >div#contact > div#contactform > fieldset#form > form > fieldset#formr {
+    border: 0px;
+}
+
+article.other > div#contact > div#formu > fieldset#form > form > label#nome {
+    font-size: small;
+    position: relative;
+    top: -4vh;
+}
+
+article.other > div#contact > div#formu > fieldset#form > form > label#city {
+    font-size: small;
+    position: relative;
+    top: -1vh;
+}
+
+article.other > div#contact > div#formu > fieldset#form > form > label#mail {
+    font-size: small;
+    position: relative;
+    top: 0vh;
+    border: 0px;
+}
+
+article.other > div#contact > div#contactform > fieldset#form > form >button  {
+    font-size: small;
+    position: relative;
+    top: 4vh;
+    width: 40vw;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+/*------ FOOTER ------*/
 
     footer > p {
         border: 1px solid;

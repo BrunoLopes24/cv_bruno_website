@@ -81,6 +81,9 @@ main > div#welcome > p {
     top: 1.5px;
 }
 
+main > div#welcome > p#wel {  /* HIDDEN ON MOBILE ONLY*/
+    display: none;
+} 
 main > div#welcome > p#devices {
     position: relative;
     display: flex;
