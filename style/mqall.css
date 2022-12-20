@@ -385,7 +385,7 @@ article.other > div#contact {
     border-radius: 10px;
     box-shadow: 0px 0px 6px black;
     width: fit-content;
-    height: 30vh;
+    height: 50vh;
     left: 15px;
 }
 
@@ -396,44 +396,45 @@ article.other > div#contact > div#contactform {
     padding: 5px;
 }
 
-article.other > div#contact > div#formu > fieldset#form {
-    height: fit-content;
+article.other > div#contact > div#contentform > fieldset#form {
+    border: 1px solid red;
+    height: 45vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
     text-align: center;
     margin: 0 auto;
 }
 
-article.other >div#contact > div#contactform > fieldset#form > form > fieldset#formr {
+article.other > div#contact > div#contentform > fieldset#form > form > fieldset#formr {
     border: 0px;
 }
 
-article.other > div#contact > div#formu > fieldset#form > form > label#nome {
+article.other > div#contact > div#contentform > fieldset#form > form > label#nome {
     font-size: small;
     position: relative;
-    top: -4vh;
+    top: -9vh;
 }
 
-article.other > div#contact > div#formu > fieldset#form > form > label#city {
+article.other > div#contact > div#contentform > fieldset#form > form > label#city {
     font-size: small;
     position: relative;
-    top: -1vh;
+    top: -5vh;
 }
 
-article.other > div#contact > div#formu > fieldset#form > form > label#mail {
+article.other > div#contact > div#contentform > fieldset#form > form > label#mail {
     font-size: small;
     position: relative;
-    top: 0vh;
+    top: 2vh;
     border: 0px;
 }
 
-article.other > div#contact > div#contactform > fieldset#form > form >button  {
+article.other > div#contact > div#contentform > fieldset#form > form >button  {
     font-size: small;
     position: relative;
-    top: 4vh;
-    width: 40vw;
+    top: 9vh;
+    width: 25vw;
     padding: 2px;
     border-radius: 7px;
 }
