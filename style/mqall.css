@@ -86,7 +86,9 @@
         width: 41vw;
         height: 45vh;
         border: 1px solid grey;
-        background: var(--menu-hover) url(../images/bg_wave.png) no-repeat center center;
+        /*background: var(--menu-hover) url(../images/bg_wave.png) no-repeat center center;
+        background-size: cover;*/  /* NORMAL BACKGROUND */
+        background: var(--main) url(../images/fallstars.gif) no-repeat top center;  /* CHRSITMAS BACKGROUND */
         background-size: cover;
         border-radius: 10px;
         box-shadow: 0px 0px 6px black;
