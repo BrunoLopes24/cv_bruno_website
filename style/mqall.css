@@ -258,14 +258,13 @@
         display: flex;
         position: relative;
         top: 80px;
-        margin: 3vh auto;
+        margin: 0vh auto;
         border: 1px solid grey;
         background-color: var(--selfie);
         border-radius: 10px;
         box-shadow: 0px 0px 6px black;
         width: 97vw;
         block-size: fit-content;
-        padding-bottom: 10px;
     }
     article.other > div#projects > div#content2 {
         display: flex;
@@ -295,6 +294,8 @@
 
     article.other > div#projects > div#content2 > div.slider  { 
         overflow: hidden;
+        width: 80vw;
+        margin: 2vh auto;
     }
 
     article.other > div#projects > div#content2 > div.slider > figure {
