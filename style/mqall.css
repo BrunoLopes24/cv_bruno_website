@@ -251,7 +251,7 @@
                                                                 /*---- PROJECTS ----*/    
 
     article.other {
-        height: 150vh;
+        height: 145vh;
     }
    
         article.other > div#projects {
@@ -445,7 +445,7 @@ article.other > div#learn {
     flex-direction: column;
     justify-content: right;
     position: relative;
-    top: -27%;
+    top: -28%;
     margin: 0 left;
     padding: 20px;
     border: 1px solid grey;
