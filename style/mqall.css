@@ -249,10 +249,6 @@
         top: 40px;
     }
                                                                 /*---- PROJECTS ----*/    
-
-    article.other {
-        height: 145vh;
-    }
    
         article.other > div#projects {
         display: flex;
@@ -439,23 +435,16 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     border-radius: 7px;
 }
 
-/*---- LEARNED ----*/
+                        /*---- LEARNED ----*/
+
 article.other > div#learn {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
+    display: block;
     position: relative;
-    top: -27%;
-    margin: 0 left;
-    padding: 20px;
-    border: 1px solid grey;
+    width: fit-content;
+    left: 55%;
+    top: -39vh;
     background-color: var(--selfie);
     border-radius: 10px;
-    box-shadow: 0px 0px 6px black;
-    width: 40vw;
-    height: 50vh;
-    left: 55vw;
-    color: white;
 }
 
 article.other > div#learn > div#contentlearn {
@@ -468,12 +457,13 @@ article.other > div#learn > div#contentlearn {
     top: 0%;
     width: 40vw;
     left: -20px;
+    padding: 10px;
 }
 
 article.other > div#learn > div#contentlearn > ul > li {
     text-align: left;
     position: relative;
-    left: 10px;
+    left: 25px;
     list-style: none;
 }
 
