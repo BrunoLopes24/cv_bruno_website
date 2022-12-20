@@ -397,7 +397,7 @@ article.other > div#contact > div#contactform {
 }
 
 article.other > div#contact > div#contentform > fieldset#form {
-    border: 1px solid red;
+    color: white;
     height: 45vh;
     display: flex;
     flex-direction: column;
@@ -437,6 +437,50 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     width: 25vw;
     padding: 2px;
     border-radius: 7px;
+}
+
+/*---- LEARNED ----*/
+article.other > div#learn {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    position: relative;
+    top: -27%;
+    margin: 0 left;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: var(--selfie);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px black;
+    width: 40vw;
+    height: 50vh;
+    left: 55vw;
+    color: white;
+}
+
+article.other > div#learn > div#contentlearn {
+    text-align: center;
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    top: 0%;
+    width: 40vw;
+    left: -20px;
+}
+
+article.other > div#learn > div#contentlearn > ul > li {
+    text-align: left;
+    position: relative;
+    left: 10px;
+    list-style: none;
+}
+
+article.other > div#learn > div#contentlearn > ul > li > a{ 
+    text-decoration: none;
+    color: blue;
 }
 
 /*------ FOOTER ------*/
