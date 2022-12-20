@@ -14,7 +14,7 @@
         height: 100vh;
         /*background-image: linear-gradient(to right, var(--main), var(--selfie) );*/ /* NORMAL BACKGROUND */
         background: var(--main) url(../images/christmas.webp) no-repeat bottom center; /* CHRSITMAS BACKGROUND */
-        background-size: 100%;  /* CHRSITMAS BACKGROUND */
+        background-size: 170%;  /* CHRSITMAS BACKGROUND */
         overflow: scroll;
     }
 
