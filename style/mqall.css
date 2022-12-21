@@ -453,6 +453,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     background-position: center;
     background-size: 60%;
    }
+   
    header {
     display: none;
    }
@@ -461,5 +462,16 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
    }
    article {
     display: none;
+   }
+
+   footer > p.tabmob {
+    display: none;
+   }
+   footer > p.view {
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
    }
 }
