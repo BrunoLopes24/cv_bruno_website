@@ -24,6 +24,10 @@
     }
 
     header > div.menubar {
+        position: fixed;
+        left: 1.5vw;
+        top: 0;
+        z-index: 1;
         display: block;
         flex-direction: column;
         background-color: #D4CA33;
@@ -65,7 +69,7 @@
         height: 50vh;
         width: 97vw;
         align-items: center;
-        margin: 0 auto;
+        margin: 10vh auto;
     }
     main > div#welcome {
         color: white;
