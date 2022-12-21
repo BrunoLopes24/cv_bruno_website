@@ -447,7 +447,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {  /* LAPTOP MODE */
    body {
     background-image: url(../images/maintenance.png);
     background-position: center;
