@@ -131,9 +131,10 @@ div#projects {
 div#img {
     display:none;
 }
-footer > p.view {
+
+p {  /* REMOVE ON MOBILE WHILE LAPTOP IS UNDER MAINTENANCE */
     display: none;
-   }
+}
                                                                             /*------ FOOTER ------*/
 
 footer > p {
