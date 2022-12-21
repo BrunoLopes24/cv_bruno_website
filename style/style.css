@@ -131,6 +131,9 @@ div#projects {
 div#img {
     display:none;
 }
+footer > p.view {
+    display: none;
+   }
                                                                             /*------ FOOTER ------*/
 
 footer > p {
