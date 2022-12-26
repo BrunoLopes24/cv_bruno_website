@@ -442,6 +442,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
    body {
     background-image: url(../images/maintenance.png);
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 60%;
    }
    
