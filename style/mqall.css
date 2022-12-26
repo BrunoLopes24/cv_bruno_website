@@ -12,9 +12,7 @@
     
     body,html {
         height: 100vh;
-        /*background-image: linear-gradient(to right, var(--main), var(--selfie) );*/ /* NORMAL BACKGROUND */
-        background: var(--main) url(../images/christmas.webp) no-repeat bottom center; /* CHRSITMAS BACKGROUND */
-        background-size: 170%;  /* CHRSITMAS BACKGROUND */
+        background-image: linear-gradient(to right, var(--main), var(--selfie) );
         overflow: scroll;
     }
 
@@ -73,8 +71,7 @@
     main > div#welcome {
         color: white;
         font-family: "Amatic SC", cursive;
-        /*font-size: 1em; */ /* NORMAL */
-        font-size: 0.7em;
+        font-size: 1em;
         font-weight: bolder;
         position: relative;
         height: 60vh;
@@ -82,10 +79,8 @@
         top: 3vh;
     }
     main > div#welcome > p {
-        display: none;
-    }
-    main > div#welcome > p#wel {  /* CHRISTMAS MODE*/
-        display: flex;
+        display: block;
+        top: 20vh;
     }
                                                                                  /*---- PRESENTATION ------*/
     div#presentation {
@@ -95,14 +90,12 @@
         width: 41vw;
         height: 45vh;
         border: 1px solid grey;
-        /*background: var(--menu-hover) url(../images/bg_wave.png) no-repeat center center;
-        background-size: cover;*/  /* NORMAL BACKGROUND */
-        background: var(--main) url(../images/fallstars.gif) no-repeat top center;  /* CHRSITMAS BACKGROUND */
+        background: var(--menu-hover) url(../images/bg_wave.png) no-repeat center center;
+        background-size: cover;
         background-size: cover;
         border-radius: 10px;
         box-shadow: 0px 0px 6px black;
-        /*left: 14%;*/
-        left: 9%;
+        left: 14%;
         top: 0%;
         overflow: hidden;
     }
