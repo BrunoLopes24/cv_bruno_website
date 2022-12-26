@@ -173,10 +173,14 @@
     }
 
                                                         /*---- About ME -----*/
+
+    article {
+        height: 120vh;
+    }
     article.other > div#about {
         display: flex;
         position: relative;
-        top: 20px;
+        top: 0px;
         margin: 3vh auto;
         height: 22vh;
         border: 1px solid grey;
@@ -242,14 +246,14 @@
         flex-direction: row;
         justify-content: center;
         position: relative;
-        top: 40px;
+        top: 30px;
     }
                                                                 /*---- PROJECTS ----*/    
    
         article.other > div#projects {
         display: flex;
         position: relative;
-        top: 95px;
+        top: 70px;
         margin: 0vh auto;
         border: 1px solid grey;
         background-color: var(--selfie);
@@ -369,7 +373,7 @@ article.other > div#contact {
     flex-direction: column;
     justify-content: right;
     position: relative;
-    top: 120px;
+    top: 80px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid grey;
@@ -383,7 +387,7 @@ article.other > div#contact {
 article.other > div#contact > div#contentform > fieldset#form {
     color: white;
     font-size: smaller;
-    height: 30vh;
+    height: 27vh;
     display: flex;
     flex-direction: column;
     align-items: center;
