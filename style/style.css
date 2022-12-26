@@ -132,7 +132,7 @@ div#img {
     display:none;
 }
 
-p {  /* REMOVE ON MOBILE WHILE LAPTOP IS UNDER MAINTENANCE */
+p#view {  /* REMOVE ON MOBILE WHILE LAPTOP IS UNDER MAINTENANCE */
     display: none;
 }
                                                                             /*------ FOOTER ------*/
