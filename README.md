@@ -9,4 +9,5 @@ This is my presentation website where show you some of my skills that I've learn
 
   https://brunolopes24.github.io/CV_Bruno_Website/
 
-<img width="1420" alt="Screenshot 2022-12-21 at 15 02 05" src="https://user-images.githubusercontent.com/117863700/209367621-a157476b-7503-41e6-8f1d-1c2209b764a5.png">
+<img width="1215" alt="Screenshot 2022-12-28 at 20 33 13" src="https://user-images.githubusercontent.com/117863700/209868963-4a193744-ec6b-4814-9411-92d8834b4163.png">
+
