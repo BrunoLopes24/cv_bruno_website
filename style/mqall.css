@@ -399,17 +399,17 @@ article.other > div#contact > div#contentform > fieldset#form {
 article.other > div#contact > div#contentform > fieldset#form > form > fieldset#formr {
     position: relative;
     border: 0px;
-    top: -2vh;
+    top: -1vh;
 }
 
 article.other > div#contact > div#contentform > fieldset#form > form > label#nome {
     position: relative;
-    top: -3vh;
+    top: -1vh;
 }
 
 article.other > div#contact > div#contentform > fieldset#form > form > label#city {
     position: relative;
-    top: -2vh;
+    top: 0vh;
 }
 
 article.other > div#contact > div#contentform > fieldset#form > form > label#mail {
