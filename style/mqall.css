@@ -453,7 +453,8 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     body , html {
         height: 100vh;
         width: 100vw;
-        overflow: hidden;
+        overflow: scroll;
+        overflow-x: hidden;
     }
                                 /* DEVICES ON */  
     main > div#welcome  > p#devices > span#mob {
@@ -515,7 +516,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         display: block;
         position: relative;
         top: 7vw;
-        left: 57vw;
+        left: 7vw;
         height: 100vh;
         border-radius: 0px 0px 0px 300px;
     }
@@ -532,10 +533,22 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         flex-direction: row;
         position: relative;
         top: 55vh;
-        left: -110vh;
+        left: -207vh;
     }
 
     /* ALL */
+
+    main > div#all {
+        display: block;
+        width: 50vw;
+        height: 73vh;
+        background-color: #8F57FF;
+        position: relative;
+        left: 2.5vw;
+        top: 11vh;
+        border-radius: 10px;
+    }
+
     main > div#all > p {
         color: white;
         font-family: 'Amatic SC', cursive;
@@ -548,16 +561,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         position: relative;
         top: 2vh;
     }
-    main > div#all {
-        display: block;
-        width: 50vw;
-        height: 73vh;
-        background-color: #8F57FF;
-        position: absolute;
-        left: 4vw;
-        top: 9vh;
-        border-radius: 10px;
-    }
+
 
     main > div#all > div#parag > p {
         padding-inline: 10px;
@@ -573,7 +577,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     /*--- BUTTON LINKEDIN/GITHUB ----*/
 
 
-    main > div#all > div#button {
+    main > div#all > div#button1 {
         height: 5vh;
         display: flex;
         flex-direction: row;
@@ -583,14 +587,14 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         justify-content: center;
     }
 
-    main > div#all > div#button > ul {
+    main > div#all > div#button1 > ul {
         width: 50vw;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
-    main > div#all > div#button > ul > li {
+    main > div#all > div#button1 > ul > li {
         color: white;
         background-color: #471b9f;
         border: 1px solid;
@@ -604,7 +608,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         margin: 70px;
     }
 
-    main > div#all > div#button > ul > li > a {
+    main > div#all > div#button1 > ul > li > a {
         color: white;
     }
 }
