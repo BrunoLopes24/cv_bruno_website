@@ -132,6 +132,10 @@ div#img {
     display:none;
 }
 
+main > img {
+    display: none;
+}
+
 p#view {  /* REMOVE ON MOBILE WHILE LAPTOP IS UNDER MAINTENANCE */
     display: none;
 }
