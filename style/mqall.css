@@ -523,17 +523,15 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
 
     /* WELCOME */
 
-    main > div#welcome > p#other {
-        visibility: hidden;
-    }
-
     main > div#welcome > p#devices {
-        width: 60vw;
+        width: 90vh;
+        height: fit-content;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         position: relative;
-        top: 55vh;
-        left: -207vh;
+        top: 80vh;
+        left: -195vh;
     }
 
     /* ALL */
