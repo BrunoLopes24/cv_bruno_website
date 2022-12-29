@@ -139,6 +139,10 @@ main > img {
 main > div#all {
     display: none;
 }
+
+main > h2 {
+    display: none;
+}
 p#view {  /* REMOVE ON MOBILE WHILE LAPTOP IS UNDER MAINTENANCE */
     display: none;
 }

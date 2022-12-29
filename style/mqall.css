@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
 
 :root {
     --selfie : #8F57FF;
@@ -516,7 +517,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         display: block;
         position: relative;
         top: 7vw;
-        left: 7vw;
+        left: -86vw;
         height: 100vh;
         border-radius: 0px 0px 0px 300px;
     }
@@ -531,7 +532,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         justify-content: space-evenly;
         position: relative;
         top: 80vh;
-        left: -195vh;
+        left: -365vh;
     }
 
     /* ALL */
@@ -608,5 +609,26 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
 
     main > div#all > div#button1 > ul > li > a {
         color: white;
+    }
+
+    /* PROJECTS */
+
+    main > div#title {
+        color: white;
+        display: flex;
+        position: relative;
+        top: 70vh;
+        left: -49vw;
+        
+    }
+
+    main > div#title > h2 {
+        font-family: 'Cinzel', serif;
+        font-size: 220%;
+        text-shadow: 0px 0px 4px black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 450px;
     }
 }
