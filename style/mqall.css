@@ -514,7 +514,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     main > img {
         display: block;
         position: relative;
-        top: 8vw;
+        top: 7vw;
         left: 57vw;
         height: 100vh;
         border-radius: 0px 0px 0px 300px;
@@ -522,9 +522,8 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
 
     /* WELCOME */
 
-    main > div#welcome {
-        position: relative;
-        left: -30vw;
+    main > div#welcome > p#other {
+        visibility: hidden;
     }
 
     main > div#welcome > p#devices {
@@ -533,12 +532,24 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         flex-direction: row;
         position: relative;
         top: 55vh;
-        left: -30vh;
+        left: -110vh;
     }
 
     /* ALL */
-
+    main > div#all > p {
+        color: white;
+        font-family: 'Amatic SC', cursive;
+        font-size: 5em;
+        font-weight: bolder;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 2vh;
+    }
     main > div#all {
+        display: block;
         width: 50vw;
         height: 73vh;
         background-color: #8F57FF;
@@ -548,4 +559,52 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         border-radius: 10px;
     }
 
+    main > div#all > div#parag > p {
+        padding-inline: 10px;
+        height: 30vh;
+        display: flex;
+        color: white;
+        position: relative;
+        top: 7vh;
+        text-indent: 10px;
+        text-align: justify;
+    }
+
+    /*--- BUTTON LINKEDIN/GITHUB ----*/
+
+
+    main > div#all > div#button {
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 17vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main > div#all > div#button > ul {
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main > div#all > div#button > ul > li {
+        color: white;
+        background-color: #471b9f;
+        border: 1px solid;
+        width: 15vw;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 70px;
+    }
+
+    main > div#all > div#button > ul > li > a {
+        color: white;
+    }
 }
