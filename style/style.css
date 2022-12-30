@@ -132,6 +132,27 @@ div#img {
     display:none;
 }
 
+main > img {
+    display: none;
+}
+
+main > div#all {
+    display: none;
+}
+
+main > h2 {
+    display: none;
+}
+
+main > div#title1 {
+    display: none;
+}
+main > div#title2 {
+    display: none;
+}
+main > div#title3 {
+    display: none;
+}
 p#view {  /* REMOVE ON MOBILE WHILE LAPTOP IS UNDER MAINTENANCE */
     display: none;
 }

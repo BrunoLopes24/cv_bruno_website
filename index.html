@@ -26,8 +26,118 @@
         </div>
     </header>
     <main>
-        <div id="welcome">
+
+        <!-- LAPTOP MODE -->
+        <div id="all">
             <p>Welcome!</p>
+            <div id="parag">
+                <p>Hello I'm Bruno Lopes, a driven and motivated front-end developer junior with a passion for creating visually appealing and user-friendly websites and web applications. <br><br>
+                
+                My previous experience is working on VBA doing a Apprenticeship Internship, you can see some prints of it on 'Projects' section.<br><br>   
+
+                My long-term goal is to continue learning and growing as a front-end developer, and I've ambition to work on challenging projects that allow me to use creativity and problem-solving skills to their full potential. <br><br>
+
+                I am excited to share with you my new and responsive website. <br><br>
+                
+                I have been working hard on it and I think you will really enjoy it.
+                </p>
+            </div>
+            <div id="button1">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/brunolopes148/" target="_blank" rel="next"> Linkedin <i id="linke" class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/BrunoLopes24" target="_blank" rel="next"> Github <i id="fork" class="gg-git-fork"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="title1">
+            <div id="conten">
+            <h2>Projects</h2>
+            <p>The only project that I've made was on May 2017 - Jan 2018 at a pharmacy in my area.
+                <br> <br>
+                In this Apprenticeship Internship, I've done a program in Visual Basic with main goal was to facilitate time management of their employees.
+            </p>
+
+            <img src="images/menufar.png" alt="Farmácia Menu VBA">
+        </div>
+        </div>
+
+        <div id="title2">
+            <div id="contentt">
+            <h2>Tech</h2>
+            <div id="tech">
+                <fieldset>
+                    <legend style="text-align: center;">FRONT-END</legend> <br>
+                    <img src="images/html.svg" alt="">
+                    <img src="images/CSS.svg" alt="">
+                    <img src="images/gitdesk.png" alt="">
+                    <img src="images/vba" alt="">
+                </fieldset> <br> <br> <br>
+                <fieldset>
+                    <legend style="text-align: center;">To Learn</legend> <br>
+                    <img src="images/JS.svg" alt="">
+                    <img src="images/TS.svg" alt="">
+                    <img src="images/Ang.svg" alt="">
+                    <img src="images/php.svg" alt="">
+                </fieldset>
+            </div>
+        </div>
+        </div>
+        
+        <div id="title3">
+            <div id="conten1">
+            <h2>Contact Me</h2>
+            <form action="" method="post" autocomplete="on">
+                <label for="iname" id="nome">
+                    <p> Company Name: <br><input class="comp" type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name" style="text-align: center;" required></p>
+                </label>
+
+                <label for="icity" id="city">
+                    <p>City:</p>
+                    <select name="city" id="icity">
+                        <optgroup label="Norte" >
+                            <option value="Viana do Castelo">Viana do Castelo</option>
+                            <option value="Braga">Braga</option>
+                            <option value="Porto">Porto</option>
+                            <option value="Aveiro">Aveiro</option>
+                        </optgroup>
+                        <optgroup label="Centro" >
+                            <option value="Coimbra">Coimbra</option>
+                            <option value="Leiria">Leiria</option>
+                            <option value="Santarém">Santarém</option>
+                            <option value="Lisboa">Lisboa</option>
+                        </optgroup>
+                        <optgroup label="Sul" >
+                            <option value="Setubal">Setúbal</option>
+                            <option value="Evora">Évora</option>
+                            <option value="Beja">Beja</option>
+                            <option value="Faro">Faro</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                               <option value="Europe"> European Country</option>
+                        </optgroup>
+                    </select>
+                </label> <br> <br>
+        
+                    <fieldset id="formr">
+                        <h4>Reason:</h4>
+                        <input type="radio" name="how" id="cv" required> I want your CV! <br>
+                        <input type="radio" name="how" id="moreabout" required> Want to know more about this website!
+                        <br> <br>
+                    </fieldset>
+
+                    <label for="imail" id="mail">
+                        <p> Email: <br><input class="comp" type="email" name="name" id="imail" maxlength="20" size="30" placeholder="Company Email" style="text-align: center;" required></p>
+                    </label>
+        
+                <button onclick="alert('This a test button. Not work for now')" type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
+
+        <img src="images/back1.jpeg" alt="">
+        <div id="welcome">
+            <p id="other">Welcome!</p>
             <p id="devices">
                 <span id="mob" class="material-symbols-outlined">
                     smartphone
@@ -44,6 +154,8 @@
             </p>
         </div>
 
+
+        <!-- MOBILE MODE -->
         <div id="presentation">
             <div id="content">
                 <img src="images/selfie_gd1.jpeg" alt="Bruno Lopes Selfie">
@@ -58,6 +170,8 @@
     </div>
     </main>
     <article class="other">
+
+        <!-- TABLET MODE -->
     <div id="about">
 
         <div id="content1">
@@ -141,7 +255,7 @@
                             <p> Email: <br><input class="comp" type="email" name="name" id="imail" maxlength="20" size="30" placeholder="Company Email" style="text-align: center;" required></p>
                         </label>
             
-                    <button type="submit">Submit</button>
+                    <button onclick="alert('This a test button. Not work for now')" type="submit">Submit</button>
                 </form>
             </fieldset>
         </div>
@@ -152,8 +266,6 @@
     </article>
 
     <footer>
-        <p class="view">You can view this website on Tablet (Portrait) and/or Mobile!</p>
-
         <p class="tabmob" style="text-align: center;"> This was made with &heartsuit; by Bruno Lopes</p>
     </footer>
     
