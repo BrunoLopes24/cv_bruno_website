@@ -767,3 +767,14 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         border: 0px no;
     }
 }
+@media screen and (min-width: 1200px){
+
+    html , body {
+        background: #471b9f url(../images/maintenance.png ) center center no-repeat;
+    }
+    main, header {
+        display: none;
+        overflow: hidden;
+    }
+
+}
