@@ -49,14 +49,91 @@
                 </ul>
             </div>
         </div>
-
-        <div id="title">
+        
+        <div id="title1">
+            <div id="conten">
             <h2>Projects</h2>
-            <h2>Tech Learned</h2>
-            <h2>Contact</h2>
+            <p>The only project that I've made was on May 2017 - Jan 2018 at a pharmacy in my area.
+                <br> <br>
+                In this Apprenticeship Internship, I've done a program in Visual Basic with main goal was to facilitate time management of their employees.
+            </p>
+
+            <img src="images/menufar.png" alt="Farmácia Menu VBA">
+        </div>
+        </div>
+
+        <div id="title2">
+            <div id="contentt">
+            <h2>Tech</h2>
+            <div id="tech">
+                <fieldset>
+                    <legend style="text-align: center;">FRONT-END</legend> <br>
+                    <img src="images/html.svg" alt="">
+                    <img src="images/CSS.svg" alt="">
+                    <img src="images/gitdesk.png" alt="">
+                    <img src="images/vba" alt="">
+                </fieldset> <br> <br> <br>
+                <fieldset>
+                    <legend style="text-align: center;">To Learn</legend> <br>
+                    <img src="images/JS.svg" alt="">
+                    <img src="images/TS.svg" alt="">
+                    <img src="images/Ang.svg" alt="">
+                    <img src="images/php.svg" alt="">
+                </fieldset>
+            </div>
+        </div>
         </div>
         
+        <div id="title3">
+            <div id="conten1">
+            <h2>Contact Me</h2>
+            <form action="" method="post" autocomplete="on">
+                <label for="iname" id="nome">
+                    <p> Company Name: <br><input class="comp" type="text" name="name" id="iname" maxlength="20" size="30" placeholder="Company Name" style="text-align: center;" required></p>
+                </label>
 
+                <label for="icity" id="city">
+                    <p>City:</p>
+                    <select name="city" id="icity">
+                        <optgroup label="Norte" >
+                            <option value="Viana do Castelo">Viana do Castelo</option>
+                            <option value="Braga">Braga</option>
+                            <option value="Porto">Porto</option>
+                            <option value="Aveiro">Aveiro</option>
+                        </optgroup>
+                        <optgroup label="Centro" >
+                            <option value="Coimbra">Coimbra</option>
+                            <option value="Leiria">Leiria</option>
+                            <option value="Santarém">Santarém</option>
+                            <option value="Lisboa">Lisboa</option>
+                        </optgroup>
+                        <optgroup label="Sul" >
+                            <option value="Setubal">Setúbal</option>
+                            <option value="Evora">Évora</option>
+                            <option value="Beja">Beja</option>
+                            <option value="Faro">Faro</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                               <option value="Europe"> European Country</option>
+                        </optgroup>
+                    </select>
+                </label> <br> <br>
+        
+                    <fieldset id="formr">
+                        <h4>Reason:</h4>
+                        <input type="radio" name="how" id="cv" required> I want your CV! <br>
+                        <input type="radio" name="how" id="moreabout" required> Want to know more about this website!
+                        <br> <br>
+                    </fieldset>
+
+                    <label for="imail" id="mail">
+                        <p> Email: <br><input class="comp" type="email" name="name" id="imail" maxlength="20" size="30" placeholder="Company Email" style="text-align: center;" required></p>
+                    </label>
+        
+                <button onclick="alert('This a test button. Not work for now')" type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
 
         <img src="images/back1.jpeg" alt="">
         <div id="welcome">
@@ -178,7 +255,7 @@
                             <p> Email: <br><input class="comp" type="email" name="name" id="imail" maxlength="20" size="30" placeholder="Company Email" style="text-align: center;" required></p>
                         </label>
             
-                    <button type="submit">Submit</button>
+                    <button onclick="alert('This a test button. Not work for now')" type="submit">Submit</button>
                 </form>
             </fieldset>
         </div>
