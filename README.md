@@ -8,10 +8,11 @@ This is my presentation website where show you some of my skills that I've learn
   - Version of Desktop mode ❌
 
 ### UPDATE #3 (30/12/2022) :
-  - Version of Mobile first ✅
-  - Version of Tablet mode  ✅
-  - Version of Laptop mode  ✅
-  - Version of Desktop mode ❌ ( 2% of 100% done || Next update soon..)
+  - Version of Mobile first. ✅
+  - Version of Tablet mode.  ✅
+  - Version of Laptop mode.  ✅
+  - Version of Desktop mode. ❌ ( 2% of 100% done || Next update soon..)
+  - Implement JS on website.
 
   https://brunolopes24.github.io/CV_Bruno_Website/
 
