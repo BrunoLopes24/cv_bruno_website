@@ -1,11 +1,17 @@
 # CV_Website
 This is my presentation website where show you some of my skills that I've learned.
 
- ### UPDATE #3 (30/12/2022) :
+ ### UPDATE #2 (20/12/2022) :
+  - Version of Mobile first ✅
+  - Version of Tablet mode  ✅
+  - Version of Laptop mode  ❌
+  - Version of Desktop mode ❌
+
+### UPDATE #3 (30/12/2022) :
   - Version of Mobile first ✅
   - Version of Tablet mode  ✅
   - Version of Laptop mode  ✅
-  - Version of Desktop mode ❌ ( 45% of 100% done || Next update soon..)
+  - Version of Desktop mode ❌ ( 2% of 100% done || Next update soon..)
 
   https://brunolopes24.github.io/CV_Bruno_Website/
 
