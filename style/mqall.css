@@ -455,7 +455,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         height: 100vh;
         width: 100vw;
         overflow: scroll;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
 
     main > div#presentation {
