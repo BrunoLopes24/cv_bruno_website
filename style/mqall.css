@@ -455,27 +455,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         height: 100vh;
         width: 100vw;
         overflow: scroll;
-        overflow-x: hidden;
-    }
-                                /* DEVICES ON */  
-    main > div#welcome  > p#devices > span#mob {
-        font-size: 50%;
-        color: rgb(173, 170, 170)
-    }
-    
-    main > div#welcome > p#devices >  span#tab {
-        font-size: 50%;
-        color: rgb(151, 168, 168);
-    }
-    
-    main > div#welcome > p#devices >  span#mac {
-        font-size: 50%;
-        color: rgb(3, 255, 3);
-    }
-    
-    main > div#welcome > p#devices >  span#deskt {
-        font-size: 50%;
-        color: rgb(192, 190, 190);
+        overflow-x: scroll;
     }
 
     main > div#presentation {
@@ -501,6 +481,10 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         display: none;
     }
 
+    main > div#welcome {
+        display: none;
+    }
+
                                     /* MENU */
 
     header > div.menubar {
@@ -518,24 +502,49 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         display: block;
         position: relative;
         top: 7vw;
-        left: -75vw;
+        left: -115vw;
         height: 100vh;
         border-radius: 0px 0px 0px 300px;
     }
 
     /* WELCOME */
 
-    main > div#welcome > p#devices {
-        width: 90vh;
-        height: fit-content;
+    main > div#welcome1 {
+        width: fit-content;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         position: relative;
-        top: 77vh;
-        left: -375vh;
+        top: 55vh;
+        left: -84vh;
     }
-
+    main > div#welcome1 > p#devices1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 40vw;
+        font-size: 460%;
+    }
+    main > div#welcome1  > p#devices1 > span#mob {
+        font-size: 50%;
+        color: rgb(173, 170, 170)
+    }
+    
+    main > div#welcome1 > p#devices1 >  span#tab {
+        font-size: 50%;
+        color: rgb(151, 168, 168);
+    }
+    
+    main > div#welcome1 > p#devices1 >  span#mac {
+        font-size: 50%;
+        color: rgb(3, 255, 3);
+    }
+    
+    main > div#welcome1 > p#devices1 >  span#deskt {
+        font-size: 50%;
+        color: rgb(192, 190, 190);
+    }
     /* ALL */
 
     main > div#all {
