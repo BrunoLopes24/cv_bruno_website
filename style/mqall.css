@@ -712,6 +712,8 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     }
     
     main > div#title3 > div#conten1 > form {
+        position: relative;
+        top: 25vh;
         color: white;
         font-size: smaller;
         height: 27vh;
@@ -726,22 +728,22 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
     main > div#title3 > div#conten1 > form  fieldset#formr {
         position: relative;
         border: 0px;
-        top: -1vh;
+        top: -23vh;
     }
     
     main > div#title3 > div#conten1 > form  label#nome {
         position: relative;
-        top: -1vh;
+        top: -23vh;
     }
     
     article.other > div#contact > div#contentform > fieldset#form > form > label#city {
         position: relative;
-        top: 0vh;
+        top: -0vh;
     }
     
     main > div#title3 > div#conten1 > form  label#mail {
         position: relative;
-        top: -2vh;
+        top: -7vh;
         border: 0px;
     }
     
