@@ -14,7 +14,7 @@ This is my presentation website where show you some of my skills that I've learn
   - Version of Desktop mode. ❌ ( 2% of 100% done || Next update soon..)
   - Implement JS on website. ❌ ( 0% of 100% done )
 
-  https://brunolopes24.github.io/CV_Bruno_Website/
+  https://brunolopes24.github.io/cv_bruno_website/
 
 
 
