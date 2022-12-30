@@ -687,7 +687,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         text-align: center;
     }
 
-    main > div#title2 > div#contentt > div#tech > fieldset > img {
+    main > div#title2 > div#contentt > div#tech > fieldset > abbr > img {
         display: inline-flex;
         text-align: center;
         position: relative;
