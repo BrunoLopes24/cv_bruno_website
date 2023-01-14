@@ -15,7 +15,7 @@
 <body>
     <header>
         <i id="menu" onclick="clickMenu()"><span class="material-symbols-outlined">list</span></i>
-        <div class="menubar">
+        <div class="menubar" >
             <nav>
                 <ul id="itens">
                     <li><a href="index.html">Home</a></li>
@@ -42,6 +42,7 @@
                 
                 I have been working hard on it and I think you will really enjoy it.
                 </p>
+                <p id="year"></p>
             </div>
             <div id="button1">
                 <ul>
@@ -84,7 +85,7 @@
             <div id="contentt">
             <h2>Tech</h2>
             <div id="tech">
-                <fieldset>
+                <fieldset  onmouseover="learned()">
                     <legend style="text-align: center;">FRONT-END</legend> <br>
                     <abbr title="HTML5"><img src="images/html.svg" alt=""></abbr>
                     <abbr title="CSS3"><img src="images/CSS.svg" alt=""></abbr>
@@ -92,7 +93,7 @@
                     <abbr title="Github Desktop"><img src="images/gitdesk.png" alt=""></abbr>
                     <abbr title="Visual Basic Studio"><img src="images/vba" alt=""></abbr>
                 </fieldset> <br> <br> <br>
-                <fieldset>
+                <fieldset onmouseover="tolearn()">
                     <legend style="text-align: center;">To Learn</legend> <br>
                     <abbr title="React"><img src="images/react.png" alt=""></abbr>
                     <abbr title="TypeScript"><img src="images/TS.svg" alt=""></abbr>
@@ -149,7 +150,7 @@
                         <p> Email: <br><input class="comp" type="email" name="name" id="imail" maxlength="20" size="30" placeholder="Company Email" style="text-align: center;" required></p>
                     </label>
         
-                <button onclick="alert('This a test button. Not work for now')" type="submit">Submit</button>
+                <button onclick="Test()" type="submit">Submit</button>
             </form>
         </div>
         </div>
@@ -288,14 +289,6 @@
         <p class="tabmob" style="text-align: center;"> This was made with &heartsuit; by Bruno Lopes</p>
     </footer>
     
-    <script>
-        function clickMenu(){
-            if (itens.style.display == 'flex') {
-                itens.style.display = 'none' 
-            } else {
-                itens.style.display = 'flex'
-            }
-        }    
-    </script>
+    <script src="js.js"></script>
 </body>
 </html>

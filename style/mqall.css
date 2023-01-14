@@ -7,7 +7,7 @@
     --main : #471b9f;
     --text: #afa604;
     --menu-hover : #3A1387;
-    --menu: #D4CA33;
+    --menu: #d4ca33;
 }
 @media only screen and (min-width: 768px){                                      /* SMALL TABLET */
     
@@ -583,6 +583,14 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         text-align: justify;
     }
 
+    main > div#all > div#parag > p#year { 
+        font-size: larger;
+        position: relative;
+        top: 24vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     /*--- BUTTON LINKEDIN/GITHUB ----*/
 
 
@@ -591,7 +599,7 @@ article.other > div#contact > div#contentform > fieldset#form > form >button  {
         display: flex;
         flex-direction: row;
         position: relative;
-        top: 17vh;
+        top: -14vh;
         align-items: center;
         justify-content: center;
     }
